@@ -11,9 +11,9 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Alpha Centauri BBS"
-      ip="acentauribbs.no-ip.org"
-      port="2002"
+    <BBS name="Anybox"
+      ip="anybox.freedyndns.de"
+      port="23"
       protocol="TELNET"
       login=""
       password=""
@@ -23,6 +23,15 @@
     <BBS name="Babes On Fire"
       ip="babesonfire.nl "
       port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Basement BBS"
+      ip="basementbbs.ddns.net"
+      port="9000"
       protocol="TELNET"
       login=""
       password=""
@@ -74,6 +83,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Bucko's Den"
+      ip="wn2.duckdns.org"
+      port="6407"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Capitol Shrill BBS"
       ip="capitolshrill.com"
       port="23"
@@ -87,6 +105,15 @@
       ip="capitolshrill.com"
       port="22"
       protocol="SSH"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Colossus BBS (1)"
+      ip="bbs.qzwx.com"
+      port="23"
+      protocol="TELNET"
       login=""
       password=""
       font="vga8x16.bmp"
@@ -146,6 +173,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="DragonsWeb Labs BBS"
+      ip="bbs.dragonsweb.org"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Eggy BBS"
       ip="bbs.eggy.cc:"
       port="2300"
@@ -191,6 +227,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Hawaii BBS Atari 8 Bit"
+      ip="atari-bbs.zapto.org"
+      port="8888"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Insane Asylum BBS (SSH)"
       ip="tiabbs.synchro.net"
       port="22"
@@ -209,8 +254,26 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="LV-426 BBS"
+      ip="lv426bbs.hopto.org"
+      port="6464"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Legacy/X WHQ"
       ip="exchangebbs.com"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="M. Station"
+      ip="mstation.servebbs.com"
       port="23"
       protocol="TELNET"
       login=""
@@ -230,15 +293,6 @@
     <BBS name="Ninety-Six Forty 9640 News BBS"
       ip="9640news.ddns.net:9640"
       port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Ninho do Abutre 2 BBS"
-      ip="abutre.no-ip.org"
-      port="2323"
       protocol="TELNET"
       login=""
       password=""
@@ -272,6 +326,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Operation Insanity"
+      ip="opinsane.noip.me"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Outer Limits BBS"
       ip="outerlimitsbbs.ddns.net"
       port="8000"
@@ -284,6 +347,24 @@
     <BBS name="Outpost BBS"
       ip="bbs.outpostbbs.net"
       port="8088"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Part-Time BBS"
+      ip="ptbbs.ddns.net"
+      port="8000"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Penalty Box"
+      ip="pbox.no-ip.org"
+      port="23"
       protocol="TELNET"
       login=""
       password=""
@@ -326,18 +407,18 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Reign of Fire II"
-      ip="rof.cnet64.com"
-      port="6400"
+    <BBS name="SD2IEC Test BBS"
+      ip="cib.dyndns.org"
+      port="6403"
       protocol="TELNET"
       login=""
       password=""
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="SD2IEC Test BBS"
-      ip="cib.dyndns.org"
-      port="6403"
+    <BBS name="Sandnes BBS"
+      ip="stokmarknes.org"
+      port="24"
       protocol="TELNET"
       login=""
       password=""
@@ -398,6 +479,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Tommy's Holiday Camp"
+      ip="vintage.thcbbs.com"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Trashcan BBS"
       ip="bbs.thenet.gen.nz"
       port="2324"
@@ -416,28 +506,19 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Unleashed BBS"
+      ip="dns.unleashedinet.org"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Void BBS"
       ip="voidbbs.com"
       port="23"
       protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Wicked Garden BBS"
-      ip="wgbbs.fsxnet.nz"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Wicked Garden BBS (SSH)"
-      ip="wgbbs.fsxnet.nz"
-      port="22"
-      protocol="SSH"
       login=""
       password=""
       font="vga8x16.bmp"
@@ -455,6 +536,24 @@
     <BBS name="Wretched Beagle BBS"
       ip="bbs.wretchedbeagle.com"
       port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Wrong Number IV BBS"
+      ip="wn2.duckdns.org"
+      port="3000"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Wrong Number V BBS"
+      ip="wn2.duckdns.org"
+      port="6408"
       protocol="TELNET"
       login=""
       password=""

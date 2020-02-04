@@ -88,6 +88,11 @@
         Port           =2002
         ConnectionType =telnet
 
+[American Pi BBS]
+        Address        =americanpibbs.com
+        Port           =2323
+        ConnectionType =telnet
+
 [Amiga City]
         Address        =amigacity.xyz
         Port           =23
@@ -888,6 +893,11 @@
         Port           =23
         ConnectionType =telnet
 
+[DragonsWeb Labs BBS]
+        Address        =bbs.dragonsweb.org
+        Port           =23
+        ConnectionType =telnet
+
 [Drakefire BBS]
         Address        =bbs.drakefire.com
         Port           =23
@@ -1005,6 +1015,11 @@
 
 [Escape To Other Worlds]
         Address        =etow.com
+        Port           =23
+        ConnectionType =telnet
+
+[Extreme BBS]
+        Address        =mail.bayvillewireless.com
         Port           =23
         ConnectionType =telnet
 
@@ -1838,6 +1853,11 @@
         Port           =2323
         ConnectionType =telnet
 
+[Oldschoolfl]
+        Address        =oldschoo.synchro.net
+        Port           =23
+        ConnectionType =telnet
+
 [Onix BBS]
         Address        =onixbbs.servebbs.com
         Port           =23
@@ -1845,6 +1865,11 @@
 
 [Online BBS]
         Address        =online-bbs.selfhost.bz
+        Port           =23
+        ConnectionType =telnet
+
+[Operation Insanity]
+        Address        =opinsane.noip.me
         Port           =23
         ConnectionType =telnet
 
@@ -1856,6 +1881,11 @@
 [Orchestra BBS]
         Address        =sacrebase.servebbs.net
         Port           =486
+        ConnectionType =telnet
+
+[Otnooishphoo]
+        Address        =bbs.otnooishphoo.com
+        Port           =23
         ConnectionType =telnet
 
 [Outer Limits BBS]
@@ -2143,6 +2173,11 @@
         Port           =6400
         ConnectionType =telnet
 
+[Renegade Media BBS]
+        Address        =bbs.mywire.org
+        Port           =23
+        ConnectionType =telnet
+
 [Resistance Pride]
         Address        =resistancepride.sytes.net
         Port           =23
@@ -2278,6 +2313,11 @@
         Port           =6400
         ConnectionType =telnet
 
+[Second Foundation]
+        Address        =second-foundation.ddns.net
+        Port           =2323
+        ConnectionType =telnet
+
 [Section One BBS]
         Address        =sectiononebbs.com
         Port           =23
@@ -2358,6 +2398,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Slime City BBS]
+        Address        =bbs.retrohack.se
+        Port           =23
+        ConnectionType =telnet
+
 [Slipstream]
         Address        =slpstrm.synchro.net
         Port           =23
@@ -2366,6 +2411,11 @@
 [Sloane BBS]
         Address        =sloanebbs.com
         Port           =2323
+        ConnectionType =telnet
+
+[Small Time BBS]
+        Address        =smalltimebbs.ddns.net
+        Port           =23
         ConnectionType =telnet
 
 [Smooth's BBS]

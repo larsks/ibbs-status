@@ -21,6 +21,8 @@ HTMLDOCS = \
 	   html/up/magiterm.ini \
 	   html/down/magiterm.ini
 
+RENDER = ibbs render -p generated_at="$(shell TZ=UTC date "+%Y-%m-%d %T")"
+
 all: $(HTMLDOCS)
 
 clean:
@@ -45,13 +47,13 @@ html/down:
 	mkdir -p html/down
 
 html/up/index.html: html/up .lastcheck
-	ibbs render -p active=up -s up -o $@
+	$(RENDER) -p active=up -s up -o $@
 
 html/down/index.html: html/down .lastcheck
-	ibbs render -p active=down -s down -o $@
+	$(RENDER) -p active=down -s down -o $@
 
 html/index.html: .lastcheck
-	ibbs render -p active=all -o $@
+	$(RENDER) -p active=all -o $@
 
 html/syncterm.lst: .lastcheck
 	ibbs export -o $@ -f syncterm

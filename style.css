@@ -6,6 +6,11 @@ body {
   font-size: 14px;
 }
 
+table {
+  margin-top: 1ex;
+  margin-bottom: 1ex;
+}
+
 td, th {
   padding: 5px;
   border-bottom: thin solid black;

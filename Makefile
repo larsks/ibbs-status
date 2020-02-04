@@ -6,8 +6,20 @@ MAXC = 100
 
 HTMLDOCS = \
 	   html/index.html \
-	   html/up.html \
-	   html/down.html
+	   html/up/index.html \
+	   html/down/index.html \
+	   html/syncterm.lst \
+	   html/up/syncterm.lst \
+	   html/down/syncterm.lst \
+	   html/etherterm.xml \
+	   html/up/etherterm.xml \
+	   html/down/etherterm.xml \
+	   html/qodem.ini \
+	   html/up/qodem.ini \
+	   html/down/qodem.ini \
+	   html/magiterm.ini \
+	   html/up/magiterm.ini \
+	   html/down/magiterm.ini
 
 all: $(HTMLDOCS)
 
@@ -26,11 +38,53 @@ $(IBBS)/syncterm.lst: $(IBBS)
 	ibbs check -i $(IBBS)/syncterm.lst -d $(BBSDB) \
 		-t $(TIMEOUT) -m $(MAXC) && touch .lastcheck
 
-html/up.html: .lastcheck
-	ibbs render -s up -o $@
+html/up:
+	mkdir -p html/up
 
-html/down.html: .lastcheck
-	ibbs render -s down -o $@
+html/down:
+	mkdir -p html/down
+
+html/up/index.html: html/up .lastcheck
+	ibbs render -p active=up -s up -o $@
+
+html/down/index.html: html/down .lastcheck
+	ibbs render -p active=down -s down -o $@
 
 html/index.html: .lastcheck
-	ibbs render -o $@
+	ibbs render -p active=all -o $@
+
+html/syncterm.lst: .lastcheck
+	ibbs export -o $@ -f syncterm
+
+html/up/syncterm.lst: .lastcheck
+	ibbs export -o $@ -f syncterm -s up
+
+html/down/syncterm.lst: .lastcheck
+	ibbs export -o $@ -f syncterm -s down
+
+html/magiterm.ini: .lastcheck
+	ibbs export -o $@ -f magiterm
+
+html/up/magiterm.ini: .lastcheck
+	ibbs export -o $@ -f magiterm -s up
+
+html/down/magiterm.ini: .lastcheck
+	ibbs export -o $@ -f magiterm -s down
+
+html/qodem.ini: .lastcheck
+	ibbs export -o $@ -f qodem
+
+html/up/qodem.ini: .lastcheck
+	ibbs export -o $@ -f qodem -s up
+
+html/down/qodem.ini: .lastcheck
+	ibbs export -o $@ -f qodem -s down
+
+html/etherterm.xml: .lastcheck
+	ibbs export -o $@ -f etherterm
+
+html/up/etherterm.xml: .lastcheck
+	ibbs export -o $@ -f etherterm -s up
+
+html/down/etherterm.xml: .lastcheck
+	ibbs export -o $@ -f etherterm -s down

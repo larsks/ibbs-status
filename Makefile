@@ -1,4 +1,4 @@
-IBBS = ibbs$(shell date +%m%y)
+IBBS = ibbs$(shell date +%m%d%y)
 IBBS_URL = https://www.telnetbbsguide.com/bbslist/$(IBBS).zip
 BBSDB = bbsdb.sqlite
 TIMEOUT = 20
@@ -31,13 +31,11 @@ clean:
 $(IBBS).zip:
 	curl -o $@ $(IBBS_URL)
 
-$(IBBS): $(IBBS).zip
+data data/syncterm.lst: $(IBBS).zip
 	unzip -d $@ $<
 
-$(IBBS)/syncterm.lst: $(IBBS)
-
-.lastcheck: $(IBBS)/syncterm.lst
-	ibbs check -i $(IBBS)/syncterm.lst -d $(BBSDB) \
+.lastcheck: data/syncterm.lst
+	ibbs check -i data/syncterm.lst -d $(BBSDB) \
 		-t $(TIMEOUT) -m $(MAXC) && touch .lastcheck
 
 html/up:

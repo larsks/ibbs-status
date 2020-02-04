@@ -3,7 +3,8 @@
 <head>
     
     <title>Internet BBS List</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css"/>
+    <meta charset="UTF-8"/>
     
 </head>
 <body>
@@ -13,10 +14,17 @@
 
   <div id="content">
     
-<ul class="nav">
-  <li><a href="index.html">All</a></li>
-  <li><a href="up.html">Up</a></li>
-  <li><a href="down.html">Down</a></li>
+<ul class="nav main">
+  <li><a href="/">All</a></li>
+  <li><a href="/up/">Up</a></li>
+  <li><a class="active"href="/down/">Down</a></li>
+</ul>
+
+<ul class="nav sub">
+  <li><a href="syncterm.lst">syncterm.lst</a></li>
+  <li><a href="magiterm.ini">magiterm.ini</a></li>
+  <li><a href="qodem.ini">qodem.ini</a></li>
+  <li><a href="etherterm.xml">etherterm.xml</a></li>
 </ul>
 
 <table>
@@ -30,7 +38,7 @@
     <td>1</td>
     <td>Agency BBS (SSH)</td>
     <td>DOWN</td>
-    <td>SSH</td>
+    <td>ssh</td>
     <td>agency.bbs.nz</td>
     <td>2024</td>
     <td class="status">
@@ -73,7 +81,7 @@
     <td>2</td>
     <td>Alpha Centauri BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>acentauribbs.no-ip.org</td>
     <td>2002</td>
     <td class="status">
@@ -116,7 +124,7 @@
     <td>3</td>
     <td>Babes On Fire</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>babesonfire.nl </td>
     <td>23</td>
     <td class="status">
@@ -159,7 +167,7 @@
     <td>4</td>
     <td>Basement Theory (SSH)</td>
     <td>DOWN</td>
-    <td>SSH</td>
+    <td>ssh</td>
     <td>basement.synchro.net</td>
     <td>2222</td>
     <td class="status">
@@ -202,7 +210,7 @@
     <td>5</td>
     <td>Beavis & Butt-Head BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>butthead.ddns.net</td>
     <td>23</td>
     <td class="status">
@@ -245,7 +253,7 @@
     <td>6</td>
     <td>Bit Sunrise</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>bitsunrise.com</td>
     <td>23</td>
     <td class="status">
@@ -288,7 +296,7 @@
     <td>7</td>
     <td>Blood Stone</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>wwiv.bsbbs.com</td>
     <td>2323</td>
     <td class="status">
@@ -331,7 +339,7 @@
     <td>8</td>
     <td>Blood Stone (SSH)</td>
     <td>DOWN</td>
-    <td>SSH</td>
+    <td>ssh</td>
     <td>wwiv.bsbbs.com</td>
     <td>22</td>
     <td class="status">
@@ -374,7 +382,7 @@
     <td>9</td>
     <td>Capitol Shrill BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>capitolshrill.com</td>
     <td>23</td>
     <td class="status">
@@ -417,7 +425,7 @@
     <td>10</td>
     <td>Capitol Shrill BBS (SSH)</td>
     <td>DOWN</td>
-    <td>SSH</td>
+    <td>ssh</td>
     <td>capitolshrill.com</td>
     <td>22</td>
     <td class="status">
@@ -460,7 +468,7 @@
     <td>11</td>
     <td>Commodore Image</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>cib.dyndns.org</td>
     <td>6400</td>
     <td class="status">
@@ -503,7 +511,7 @@
     <td>12</td>
     <td>Commodore Image 2</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>cib.dyndns.org</td>
     <td>6401</td>
     <td class="status">
@@ -546,7 +554,7 @@
     <td>13</td>
     <td>Commodore Image 3</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>cib.dyndns.org</td>
     <td>6402</td>
     <td class="status">
@@ -589,7 +597,7 @@
     <td>14</td>
     <td>Digital Gatehouse</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>bbs.digitalgatehouse.com</td>
     <td>23</td>
     <td class="status">
@@ -632,7 +640,7 @@
     <td>15</td>
     <td>DigitalDial-Sta#1</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>digitaldial.homeunix.com</td>
     <td>2300</td>
     <td class="status">
@@ -675,7 +683,7 @@
     <td>16</td>
     <td>Dragon's Lair BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>dragon.vk3heg.net</td>
     <td>23</td>
     <td class="status">
@@ -718,7 +726,7 @@
     <td>17</td>
     <td>Eggy BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>bbs.eggy.cc:</td>
     <td>2300</td>
     <td class="status">
@@ -761,7 +769,7 @@
     <td>18</td>
     <td>Fercho BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>ferchobbs.ddns.net</td>
     <td>2323</td>
     <td class="status">
@@ -804,7 +812,7 @@
     <td>19</td>
     <td>Gate BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>thegatebbs.sytes.net</td>
     <td>666</td>
     <td class="status">
@@ -847,7 +855,7 @@
     <td>20</td>
     <td>Gate BBS II</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>thegateb.synchro.net</td>
     <td>23</td>
     <td class="status">
@@ -890,7 +898,7 @@
     <td>21</td>
     <td>Grady's Liquor Store</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>hcow.dynu.net</td>
     <td>2323</td>
     <td class="status">
@@ -933,7 +941,7 @@
     <td>22</td>
     <td>Insane Asylum BBS (SSH)</td>
     <td>DOWN</td>
-    <td>SSH</td>
+    <td>ssh</td>
     <td>tiabbs.synchro.net</td>
     <td>22</td>
     <td class="status">
@@ -976,7 +984,7 @@
     <td>23</td>
     <td>Internal Affairs</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>internalaffairsbbs.com</td>
     <td>23</td>
     <td class="status">
@@ -1019,7 +1027,7 @@
     <td>24</td>
     <td>Legacy/X WHQ</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>exchangebbs.com</td>
     <td>23</td>
     <td class="status">
@@ -1062,7 +1070,7 @@
     <td>25</td>
     <td>Mutiny BBS (SSH)</td>
     <td>DOWN</td>
-    <td>SSH</td>
+    <td>ssh</td>
     <td>mutinybbs.com</td>
     <td>22</td>
     <td class="status">
@@ -1105,7 +1113,7 @@
     <td>26</td>
     <td>Ninety-Six Forty 9640 News BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>9640news.ddns.net:9640</td>
     <td>23</td>
     <td class="status">
@@ -1148,7 +1156,7 @@
     <td>27</td>
     <td>Ninho do Abutre 2 BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>abutre.no-ip.org</td>
     <td>2323</td>
     <td class="status">
@@ -1191,7 +1199,7 @@
     <td>28</td>
     <td>Ninho do Abutre 2 BBS (SSH)</td>
     <td>DOWN</td>
-    <td>SSH</td>
+    <td>ssh</td>
     <td>abutre.no-ip.org</td>
     <td>22</td>
     <td class="status">
@@ -1234,7 +1242,7 @@
     <td>29</td>
     <td>Northern Borderlands BBS (SSH)</td>
     <td>DOWN</td>
-    <td>SSH</td>
+    <td>ssh</td>
     <td>northernborderlands.ddns.net</td>
     <td>22</td>
     <td class="status">
@@ -1277,7 +1285,7 @@
     <td>30</td>
     <td>Old Time's Sake BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>konchoulias.no-ip.org</td>
     <td>2323</td>
     <td class="status">
@@ -1320,7 +1328,7 @@
     <td>31</td>
     <td>Outer Limits BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>outerlimitsbbs.ddns.net</td>
     <td>8000</td>
     <td class="status">
@@ -1363,7 +1371,7 @@
     <td>32</td>
     <td>Outpost BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>bbs.outpostbbs.net</td>
     <td>8088</td>
     <td class="status">
@@ -1406,7 +1414,7 @@
     <td>33</td>
     <td>Pinion BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>alienprime.alienpinion.com</td>
     <td>23</td>
     <td class="status">
@@ -1449,7 +1457,7 @@
     <td>34</td>
     <td>Quantum Wormhole</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>bbs.erb.pw</td>
     <td>23</td>
     <td class="status">
@@ -1492,7 +1500,7 @@
     <td>35</td>
     <td>Quantum Wormhole (SSH)</td>
     <td>DOWN</td>
-    <td>SSH</td>
+    <td>ssh</td>
     <td>bbs.erb.pw</td>
     <td>45022</td>
     <td class="status">
@@ -1535,7 +1543,7 @@
     <td>36</td>
     <td>Raiders Inc. BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>vintagebbsing.com</td>
     <td>1337</td>
     <td class="status">
@@ -1578,7 +1586,7 @@
     <td>37</td>
     <td>Reign of Fire II</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>rof.cnet64.com</td>
     <td>6400</td>
     <td class="status">
@@ -1621,7 +1629,7 @@
     <td>38</td>
     <td>SD2IEC Test BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>cib.dyndns.org</td>
     <td>6403</td>
     <td class="status">
@@ -1664,7 +1672,7 @@
     <td>39</td>
     <td>Skynet BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>skynetbbs.dynu.net</td>
     <td>6400</td>
     <td class="status">
@@ -1707,7 +1715,7 @@
     <td>40</td>
     <td>Starbase 21</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>bbs.starbase21.net</td>
     <td>23</td>
     <td class="status">
@@ -1750,7 +1758,7 @@
     <td>41</td>
     <td>Telegard Prison Board</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>wcalt.rdfig.net</td>
     <td>23</td>
     <td class="status">
@@ -1793,7 +1801,7 @@
     <td>42</td>
     <td>Thunderbolt BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>tbolt.synchro.net</td>
     <td>23</td>
     <td class="status">
@@ -1836,7 +1844,7 @@
     <td>43</td>
     <td>Thunderbolt BBS (SSH)</td>
     <td>DOWN</td>
-    <td>SSH</td>
+    <td>ssh</td>
     <td>tbolt.synchro.net</td>
     <td>22036</td>
     <td class="status">
@@ -1879,7 +1887,7 @@
     <td>44</td>
     <td>Tiny's BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>tinysbbs.com</td>
     <td>3023</td>
     <td class="status">
@@ -1922,7 +1930,7 @@
     <td>45</td>
     <td>Trashcan BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>bbs.thenet.gen.nz</td>
     <td>2324</td>
     <td class="status">
@@ -1965,7 +1973,7 @@
     <td>46</td>
     <td>Undercurrents BBS (Enigma) (SSH)</td>
     <td>DOWN</td>
-    <td>SSH</td>
+    <td>ssh</td>
     <td>8086</td>
     <td>22</td>
     <td class="status">
@@ -2008,7 +2016,7 @@
     <td>47</td>
     <td>Void BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>voidbbs.com</td>
     <td>23</td>
     <td class="status">
@@ -2051,7 +2059,7 @@
     <td>48</td>
     <td>Wicked Garden BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>wgbbs.fsxnet.nz</td>
     <td>23</td>
     <td class="status">
@@ -2094,7 +2102,7 @@
     <td>49</td>
     <td>Wicked Garden BBS (SSH)</td>
     <td>DOWN</td>
-    <td>SSH</td>
+    <td>ssh</td>
     <td>wgbbs.fsxnet.nz</td>
     <td>22</td>
     <td class="status">
@@ -2137,7 +2145,7 @@
     <td>50</td>
     <td>Wintermute BBS (SSH)</td>
     <td>DOWN</td>
-    <td>SSH</td>
+    <td>ssh</td>
     <td>new@wintermute.spdns.eu</td>
     <td>2222</td>
     <td class="status">
@@ -2180,7 +2188,7 @@
     <td>51</td>
     <td>Wretched Beagle BBS</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>bbs.wretchedbeagle.com</td>
     <td>23</td>
     <td class="status">
@@ -2223,7 +2231,7 @@
     <td>52</td>
     <td>Wrong Number ][ V1.2b</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>cib.dyndns.org</td>
     <td>6404</td>
     <td class="status">
@@ -2271,7 +2279,7 @@
     <td>53</td>
     <td>Wrong Number ][ V2.0</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>cib.dyndns.org</td>
     <td>6405</td>
     <td class="status">
@@ -2319,7 +2327,7 @@
     <td>54</td>
     <td>Zombie Zone</td>
     <td>DOWN</td>
-    <td>Telnet</td>
+    <td>telnet</td>
     <td>hcow.dynu.net</td>
     <td>61912</td>
     <td class="status">

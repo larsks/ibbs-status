@@ -1,12 +1,28 @@
 @import url("reset.css");
 @import url("navmenu.css");
 
+@media print {
+  .noprint {display: none;}
+
+  .generated {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+}
+
 body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
   font-size: 14px;
 }
 
+table {
+  margin-top: 1ex;
+  margin-bottom: 1ex;
+}
+
 td, th {
+  text-align: left;
   padding: 5px;
   border-bottom: thin solid black;
 }

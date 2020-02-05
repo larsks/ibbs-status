@@ -2773,6 +2773,11 @@
         Port           =2812
         ConnectionType =telnet
 
+[Vague BBS]
+        Address        =47.203.191.233
+        Port           =23
+        ConnectionType =telnet
+
 [Valhalla Home Services (1)]
         Address        =bbs.valhallahomeservices.com
         Port           =23
@@ -2852,16 +2857,6 @@
         Address        =frontierbbs.net
         Port           =2333
         ConnectionType =telnet
-
-[War Ensemble BBS]
-        Address        =warensemble.com
-        Port           =23
-        ConnectionType =telnet
-
-[War Ensemble BBS (SSH)]
-        Address        =warensemble.com
-        Port           =22
-        ConnectionType =ssh
 
 [Wastelands BBS]
         Address        =wastelands-bbs.net

@@ -23,6 +23,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Basement BBS]
+        Address        =basementbbs.ddns.net
+        Port           =9000
+        ConnectionType =telnet
+
 [Basement Theory (SSH)]
         Address        =basement.synchro.net
         Port           =2222
@@ -37,11 +42,6 @@
         Address        =wwiv.bsbbs.com
         Port           =22
         ConnectionType =ssh
-
-[Bridge BBS]
-        Address        =bridge.vkradio.com
-        Port           =23
-        ConnectionType =telnet
 
 [Bucko's Den]
         Address        =wn2.duckdns.org
@@ -73,6 +73,11 @@
         Port           =6402
         ConnectionType =telnet
 
+[Cybersteampunk BBS]
+        Address        =bbs.sysop.se
+        Port           =8888
+        ConnectionType =telnet
+
 [Dragon's Lair BBS]
         Address        =dragon.vk3heg.net
         Port           =23
@@ -93,29 +98,9 @@
         Port           =2323
         ConnectionType =telnet
 
-[Flower BBS WA]
-        Address        =flower.sytes.net
-        Port           =31337
-        ConnectionType =telnet
-
-[Freeway BBS]
-        Address        =freeway.vkradio.com
-        Port           =23
-        ConnectionType =telnet
-
 [Grady's Liquor Store]
         Address        =hcow.dynu.net
         Port           =2323
-        ConnectionType =telnet
-
-[Hawaii BBS Atari 8 Bit]
-        Address        =atari-bbs.zapto.org
-        Port           =8888
-        ConnectionType =telnet
-
-[House Hasson Online]
-        Address        =216.195.204.118
-        Port           =23
         ConnectionType =telnet
 
 [Insane Asylum BBS (SSH)]
@@ -143,6 +128,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Ninho do Abutre 2 BBS]
+        Address        =abutre.no-ip.org
+        Port           =2323
+        ConnectionType =telnet
+
 [Ninho do Abutre 2 BBS (SSH)]
         Address        =abutre.no-ip.org
         Port           =22
@@ -158,18 +148,18 @@
         Port           =2323
         ConnectionType =telnet
 
-[Operation Insanity]
-        Address        =opinsane.noip.me
-        Port           =23
-        ConnectionType =telnet
-
 [Outpost BBS]
         Address        =bbs.outpostbbs.net
         Port           =8088
         ConnectionType =telnet
 
-[Penalty Box]
-        Address        =pbox.no-ip.org
+[Part-Time BBS]
+        Address        =ptbbs.ddns.net
+        Port           =8000
+        ConnectionType =telnet
+
+[Pepzi BBS]
+        Address        =pepzi.eu
         Port           =23
         ConnectionType =telnet
 
@@ -211,6 +201,11 @@
 [Tiny's BBS]
         Address        =tinysbbs.com
         Port           =3023
+        ConnectionType =telnet
+
+[Tommy's Holiday Camp]
+        Address        =vintage.thcbbs.com
+        Port           =23
         ConnectionType =telnet
 
 [Trashcan BBS]

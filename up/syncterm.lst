@@ -248,11 +248,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Basement BBS]
-        Address        =basementbbs.ddns.net
-        Port           =9000
-        ConnectionType =telnet
-
 [Basement Theory]
         Address        =basement.synchro.net
         Port           =23
@@ -366,6 +361,11 @@
 [Brewery BBS]
         Address        =thebrewery.servebeer.com
         Port           =6400
+        ConnectionType =telnet
+
+[Bridge BBS]
+        Address        =bridge.vkradio.com
+        Port           =23
         ConnectionType =telnet
 
 [Broken Bubble BBS]
@@ -621,11 +621,6 @@
 [Cyberspace BBS]
         Address        =cyberspacebbs.net
         Port           =23
-        ConnectionType =telnet
-
-[Cybersteampunk BBS]
-        Address        =bbs.sysop.se
-        Port           =8888
         ConnectionType =telnet
 
 [CypherPunk (Digitilsoft)]
@@ -1008,6 +1003,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Flower BBS WA]
+        Address        =flower.sytes.net
+        Port           =31337
+        ConnectionType =telnet
+
 [FlupH BBS]
         Address        =fluph.zapto.org
         Port           =23
@@ -1045,6 +1045,11 @@
 
 [Freeside BBS]
         Address        =freeside.bbs.io
+        Port           =23
+        ConnectionType =telnet
+
+[Freeway BBS]
+        Address        =freeway.vkradio.com
         Port           =23
         ConnectionType =telnet
 
@@ -1168,6 +1173,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Hawaii BBS Atari 8 Bit]
+        Address        =atari-bbs.zapto.org
+        Port           =8888
+        ConnectionType =telnet
+
 [Haxor's Palace]
         Address        =telnet.unknownrealm.org
         Port           =23
@@ -1200,6 +1210,11 @@
 
 [Horizon BBS]
         Address        =bbs.horizonbbs.net
+        Port           =23
+        ConnectionType =telnet
+
+[House Hasson Online]
+        Address        =216.195.204.118
         Port           =23
         ConnectionType =telnet
 
@@ -1663,11 +1678,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Ninho do Abutre 2 BBS]
-        Address        =abutre.no-ip.org
-        Port           =2323
-        ConnectionType =telnet
-
 [No Rules BBS]
         Address        =173.8.194.46
         Port           =23
@@ -1720,6 +1730,11 @@
 
 [Online BBS]
         Address        =online-bbs.selfhost.bz
+        Port           =23
+        ConnectionType =telnet
+
+[Operation Insanity]
+        Address        =opinsane.noip.me
         Port           =23
         ConnectionType =telnet
 
@@ -1778,11 +1793,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Part-Time BBS]
-        Address        =ptbbs.ddns.net
-        Port           =8000
-        ConnectionType =telnet
-
 [Particles! BBS]
         Address        =particlesbbs.dyndns.org
         Port           =6400
@@ -1793,8 +1803,8 @@
         Port           =23
         ConnectionType =telnet
 
-[Pepzi BBS]
-        Address        =pepzi.eu
+[Penalty Box]
+        Address        =pbox.no-ip.org
         Port           =23
         ConnectionType =telnet
 
@@ -2453,11 +2463,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Tommy's Holiday Camp]
-        Address        =vintage.thcbbs.com
-        Port           =23
-        ConnectionType =telnet
-
 [Tornado Electronic Communications System]
         Address        =bbs.tecs.de
         Port           =23
@@ -2558,6 +2563,11 @@
         Port           =2812
         ConnectionType =telnet
 
+[Vague BBS]
+        Address        =47.203.191.233
+        Port           =23
+        ConnectionType =telnet
+
 [Valhalla Home Services (1)]
         Address        =bbs.valhallahomeservices.com
         Port           =23
@@ -2632,16 +2642,6 @@
         Address        =frontierbbs.net
         Port           =2333
         ConnectionType =telnet
-
-[War Ensemble BBS]
-        Address        =warensemble.com
-        Port           =23
-        ConnectionType =telnet
-
-[War Ensemble BBS (SSH)]
-        Address        =warensemble.com
-        Port           =22
-        ConnectionType =ssh
 
 [Wastelands BBS]
         Address        =wastelands-bbs.net

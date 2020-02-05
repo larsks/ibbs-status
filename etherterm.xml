@@ -4979,6 +4979,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Vague BBS"
+      ip="47.203.191.233"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Valhalla Home Services (1)"
       ip="bbs.valhallahomeservices.com"
       port="23"
@@ -5118,24 +5127,6 @@
       ip="frontierbbs.net"
       port="2333"
       protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="War Ensemble BBS"
-      ip="warensemble.com"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="War Ensemble BBS (SSH)"
-      ip="warensemble.com"
-      port="22"
-      protocol="SSH"
       login=""
       password=""
       font="vga8x16.bmp"

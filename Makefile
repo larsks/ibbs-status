@@ -1,8 +1,8 @@
 IBBS = ibbs$(shell date +%m%d%y)
 IBBS_URL = https://www.telnetbbsguide.com/bbslist/$(IBBS).zip
 BBSDB = ../ibbs-database/bbsdb.sqlite
-TIMEOUT = 20
-MAXC = 100
+TIMEOUT = 10
+MAXC = 200
 
 HTMLDOCS = \
 	   html/index.html \

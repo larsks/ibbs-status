@@ -1,0 +1,36 @@
+{% extends "page.html" %}
+
+{% block title %}Internet BBS List: History{% endblock %}
+
+{% block content %}
+<table>
+  <tr>
+    <th>Date</th>
+    <th>Open</th>
+    <th>Refused</th>
+    <th>Timeout</th>
+    <th>Unknown</th>
+    <th>Unreachable</th>
+    <th>Other</th>
+    <th>Total</th>
+  </tr>
+{% for result in status_summary[:30] %}
+<tr>
+  <td>{{ result.date }}</td>
+  <td>{{ result.summary.get('OPEN', 0) }}</td>
+  <td>{{ result.summary.get('REFUSED', 0) }}</td>
+  <td>{{ result.summary.get('TIMEOUT', 0) }}</td>
+  <td>{{ result.summary.get('UNKNOWN', 0) }}</td>
+  <td>{{ result.summary.get('UNREACHABLE', 0) }}</td>
+  <td>{{ result.summary.get('OTHER', 0) }}</td>
+  <td>{{
+  + result.summary.get('OPEN', 0)
+  + result.summary.get('REFUSED', 0)
+  + result.summary.get('TIMEOUT', 0)
+  + result.summary.get('UNKNOWN', 0)
+  + result.summary.get('UNREACHABLE', 0)
+  + result.summary.get('OTHER', 0) }}</td>
+</tr>
+{% endfor %}
+</table>
+{% endblock %}

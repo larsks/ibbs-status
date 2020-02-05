@@ -19,9 +19,12 @@ HTMLDOCS = \
 	   html/down/qodem.ini \
 	   html/magiterm.ini \
 	   html/up/magiterm.ini \
-	   html/down/magiterm.ini
+	   html/down/magiterm.ini \
+	   html/history.html
 
-RENDER = ibbs render -p generated_at="$(shell TZ=UTC date "+%Y-%m-%d %T")"
+TEMPLATE_PATH = ./templates
+RENDER = ibbs render \
+	 -p generated_at="$(shell TZ=UTC date "+%Y-%m-%d %T")"
 
 all: $(HTMLDOCS)
 
@@ -44,14 +47,17 @@ html/up:
 html/down:
 	mkdir -p html/down
 
+html/history.html: .lastcheck
+	$(RENDER) -o $@ -p active=history templates/history.html
+
 html/up/index.html: html/up .lastcheck
-	$(RENDER) -p active=up -s up -o $@
+	$(RENDER) -p active=up -s up -o $@ templates/bbslist.html
 
 html/down/index.html: html/down .lastcheck
-	$(RENDER) -p active=down -s down -o $@
+	$(RENDER) -p active=down -s down -o $@ templates/bbslist.html
 
 html/index.html: .lastcheck
-	$(RENDER) -p active=all -o $@
+	$(RENDER) -p active=all -o $@ templates/bbslist.html
 
 html/syncterm.lst: .lastcheck
 	ibbs export -o $@ -f syncterm

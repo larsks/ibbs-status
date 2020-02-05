@@ -5,12 +5,6 @@
 {% block page_header_attributes %}class="noprint"{% endblock %}
 
 {% block page_header %}
-<ul class="nav main">
-  <li><a {% if active == "all" %}class="active"{% endif %}href="/">All</a></li>
-  <li><a {% if active == "up" %}class="active"{% endif %}href="/up/">Up</a></li>
-  <li><a {% if active == "down" %}class="active"{% endif %}href="/down/">Down</a></li>
-</ul>
-
 <ul class="nav sub">
   <li><a href="syncterm.lst">syncterm.lst</a></li>
   <li><a href="magiterm.ini">magiterm.ini</a></li>

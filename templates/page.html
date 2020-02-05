@@ -9,6 +9,13 @@
 </head>
 <body>
   <div id="header" {% block page_header_attributes %}{% endblock %}>
+  <ul class="nav main">
+    <li><a {% if active == "all" %}class="active"{% endif %}href="/">All</a></li>
+    <li><a {% if active == "up" %}class="active"{% endif %}href="/up/">Up</a></li>
+    <li><a {% if active == "down" %}class="active"{% endif %}href="/down/">Down</a></li>
+    <li><a {% if active == "history" %}class="active"{% endif %}href="/history.html">History</a></li>
+  </ul>
+
   {% block page_header %}
   {% endblock %}
   </div>

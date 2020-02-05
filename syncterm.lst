@@ -688,6 +688,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Cybersteampunk BBS]
+        Address        =bbs.sysop.se
+        Port           =8888
+        ConnectionType =telnet
+
 [CypherPunk (Digitilsoft)]
         Address        =cypherpunkbbs.net
         Port           =23

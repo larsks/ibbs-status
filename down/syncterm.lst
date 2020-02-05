@@ -18,11 +18,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Alpha Centauri BBS]
-        Address        =acentauribbs.no-ip.org
-        Port           =2002
-        ConnectionType =telnet
-
 [Babes On Fire]
         Address        =babesonfire.nl 
         Port           =23
@@ -32,11 +27,6 @@
         Address        =basement.synchro.net
         Port           =2222
         ConnectionType =ssh
-
-[Beavis & Butt-Head BBS]
-        Address        =butthead.ddns.net
-        Port           =23
-        ConnectionType =telnet
 
 [Blood Stone]
         Address        =wwiv.bsbbs.com
@@ -83,11 +73,6 @@
         Port           =6402
         ConnectionType =telnet
 
-[Dark Matter BBS]
-        Address        =darkmatt.synchro.net
-        Port           =23
-        ConnectionType =telnet
-
 [Dragon's Lair BBS]
         Address        =dragon.vk3heg.net
         Port           =23
@@ -121,6 +106,11 @@
 [Grady's Liquor Store]
         Address        =hcow.dynu.net
         Port           =2323
+        ConnectionType =telnet
+
+[Hawaii BBS Atari 8 Bit]
+        Address        =atari-bbs.zapto.org
+        Port           =8888
         ConnectionType =telnet
 
 [House Hasson Online]
@@ -168,6 +158,11 @@
         Port           =2323
         ConnectionType =telnet
 
+[Operation Insanity]
+        Address        =opinsane.noip.me
+        Port           =23
+        ConnectionType =telnet
+
 [Outpost BBS]
         Address        =bbs.outpostbbs.net
         Port           =8088
@@ -201,11 +196,6 @@
 [Skynet BBS]
         Address        =skynetbbs.dynu.net
         Port           =6400
-        ConnectionType =telnet
-
-[Starbase 21]
-        Address        =bbs.starbase21.net
-        Port           =23
         ConnectionType =telnet
 
 [Telegard Prison Board]
@@ -242,11 +232,6 @@
         Address        =new@wintermute.spdns.eu
         Port           =2222
         ConnectionType =ssh
-
-[Wretched Beagle BBS]
-        Address        =bbs.wretchedbeagle.com
-        Port           =23
-        ConnectionType =telnet
 
 [Wrong Number IV BBS]
         Address        =wn2.duckdns.org

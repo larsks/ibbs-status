@@ -119,6 +119,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Alpha Centauri BBS"
+      ip="acentauribbs.no-ip.org"
+      port="2002"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="American Pi BBS"
       ip="americanpibbs.com"
       port="2323"
@@ -463,6 +472,15 @@
 
     <BBS name="Bear's Den"
       ip="bbs.bearfather.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Beavis & Butt-Head BBS"
+      ip="butthead.ddns.net"
       port="23"
       protocol="TELNET"
       login=""
@@ -1091,6 +1109,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Cybersteampunk BBS"
+      ip="bbs.sysop.se"
+      port="8888"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="CypherPunk (Digitilsoft)"
       ip="cypherpunkbbs.net"
       port="23"
@@ -1138,6 +1165,15 @@
 
     <BBS name="Dark Forces BBS"
       ip="darkforces.synchronetbbs.org"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Dark Matter BBS"
+      ip="darkmatt.synchro.net"
       port="23"
       protocol="TELNET"
       login=""
@@ -2048,15 +2084,6 @@
     <BBS name="Havens BBS"
       ip="havens.synchronetbbs.org"
       port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Hawaii BBS Atari 8 Bit"
-      ip="atari-bbs.zapto.org"
-      port="8888"
       protocol="TELNET"
       login=""
       password=""
@@ -3055,15 +3082,6 @@
 
     <BBS name="Online BBS"
       ip="online-bbs.selfhost.bz"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Operation Insanity"
-      ip="opinsane.noip.me"
       port="23"
       protocol="TELNET"
       login=""
@@ -4124,6 +4142,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Starbase 21"
+      ip="bbs.starbase21.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Storm BBS"
       ip="telnet.stormbbs.com"
       port="23"
@@ -4811,6 +4838,15 @@
     <BBS name="Wizard's Castle"
       ip="wccastle.synchro.net"
       port="24"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Wretched Beagle BBS"
+      ip="bbs.wretchedbeagle.com"
+      port="23"
       protocol="TELNET"
       login=""
       password=""

@@ -20,15 +20,6 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Alpha Centauri BBS"
-      ip="acentauribbs.no-ip.org"
-      port="2002"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Babes On Fire"
       ip="babesonfire.nl "
       port="23"
@@ -42,15 +33,6 @@
       ip="basement.synchro.net"
       port="2222"
       protocol="SSH"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Beavis & Butt-Head BBS"
-      ip="butthead.ddns.net"
-      port="23"
-      protocol="TELNET"
       login=""
       password=""
       font="vga8x16.bmp"
@@ -137,15 +119,6 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Dark Matter BBS"
-      ip="darkmatt.synchro.net"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Dragon's Lair BBS"
       ip="dragon.vk3heg.net"
       port="23"
@@ -203,6 +176,15 @@
     <BBS name="Grady's Liquor Store"
       ip="hcow.dynu.net"
       port="2323"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Hawaii BBS Atari 8 Bit"
+      ip="atari-bbs.zapto.org"
+      port="8888"
       protocol="TELNET"
       login=""
       password=""
@@ -290,6 +272,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Operation Insanity"
+      ip="opinsane.noip.me"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Outpost BBS"
       ip="bbs.outpostbbs.net"
       port="8088"
@@ -347,15 +338,6 @@
     <BBS name="Skynet BBS"
       ip="skynetbbs.dynu.net"
       port="6400"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Starbase 21"
-      ip="bbs.starbase21.net"
-      port="23"
       protocol="TELNET"
       login=""
       password=""
@@ -420,15 +402,6 @@
       ip="new@wintermute.spdns.eu"
       port="2222"
       protocol="SSH"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Wretched Beagle BBS"
-      ip="bbs.wretchedbeagle.com"
-      port="23"
-      protocol="TELNET"
       login=""
       password=""
       font="vga8x16.bmp"

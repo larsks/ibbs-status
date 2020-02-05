@@ -1226,6 +1226,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Cybersteampunk BBS"
+      ip="bbs.sysop.se"
+      port="8888"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="CypherPunk (Digitilsoft)"
       ip="cypherpunkbbs.net"
       port="23"

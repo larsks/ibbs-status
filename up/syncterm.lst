@@ -73,6 +73,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Alpha Centauri BBS]
+        Address        =acentauribbs.no-ip.org
+        Port           =2002
+        ConnectionType =telnet
+
 [American Pi BBS]
         Address        =americanpibbs.com
         Port           =2323
@@ -265,6 +270,11 @@
 
 [Bear's Den]
         Address        =bbs.bearfather.net
+        Port           =23
+        ConnectionType =telnet
+
+[Beavis & Butt-Head BBS]
+        Address        =butthead.ddns.net
         Port           =23
         ConnectionType =telnet
 
@@ -613,6 +623,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Cybersteampunk BBS]
+        Address        =bbs.sysop.se
+        Port           =8888
+        ConnectionType =telnet
+
 [CypherPunk (Digitilsoft)]
         Address        =cypherpunkbbs.net
         Port           =23
@@ -640,6 +655,11 @@
 
 [Dark Forces BBS]
         Address        =darkforces.synchronetbbs.org
+        Port           =23
+        ConnectionType =telnet
+
+[Dark Matter BBS]
+        Address        =darkmatt.synchro.net
         Port           =23
         ConnectionType =telnet
 
@@ -1146,11 +1166,6 @@
 [Havens BBS]
         Address        =havens.synchronetbbs.org
         Port           =23
-        ConnectionType =telnet
-
-[Hawaii BBS Atari 8 Bit]
-        Address        =atari-bbs.zapto.org
-        Port           =8888
         ConnectionType =telnet
 
 [Haxor's Palace]
@@ -1705,11 +1720,6 @@
 
 [Online BBS]
         Address        =online-bbs.selfhost.bz
-        Port           =23
-        ConnectionType =telnet
-
-[Operation Insanity]
-        Address        =opinsane.noip.me
         Port           =23
         ConnectionType =telnet
 
@@ -2298,6 +2308,11 @@
         Port           =50022
         ConnectionType =ssh
 
+[Starbase 21]
+        Address        =bbs.starbase21.net
+        Port           =23
+        ConnectionType =telnet
+
 [Storm BBS]
         Address        =telnet.stormbbs.com
         Port           =23
@@ -2681,6 +2696,11 @@
 [Wizard's Castle]
         Address        =wccastle.synchro.net
         Port           =24
+        ConnectionType =telnet
+
+[Wretched Beagle BBS]
+        Address        =bbs.wretchedbeagle.com
+        Port           =23
         ConnectionType =telnet
 
 [Wrong Number ]I[ BBS]

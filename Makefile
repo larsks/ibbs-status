@@ -1,6 +1,6 @@
 IBBS = ibbs$(shell date +%m%d%y)
 IBBS_URL = https://www.telnetbbsguide.com/bbslist/$(IBBS).zip
-BBSDB = bbsdb.sqlite
+BBSDB = ../ibbs-database/bbsdb.sqlite
 TIMEOUT = 20
 MAXC = 100
 
@@ -24,6 +24,7 @@ HTMLDOCS = \
 
 TEMPLATE_PATH = ./templates
 RENDER = ibbs render \
+	 -d $(BBSDB) \
 	 -p generated_at="$(shell TZ=UTC date "+%Y-%m-%d %T")"
 
 all: $(HTMLDOCS)
@@ -35,11 +36,15 @@ $(IBBS).zip:
 	curl -o $@ $(IBBS_URL)
 
 data data/syncterm.lst: $(IBBS).zip
-	unzip -d $@ $<
+	rm -rf data
+	unzip -d data $<
+	touch data/syncterm.lst
 
-.lastcheck: data/syncterm.lst
-	ibbs check -i data/syncterm.lst -d $(BBSDB) \
-		-t $(TIMEOUT) -m $(MAXC) && touch .lastcheck
+.lastimport: data/syncterm.lst
+	ibbs -v import -i $< -d $(BBSDB) && touch .lastimport
+
+.lastcheck: .lastimport
+	ibbs -v check -d $(BBSDB) -t $(TIMEOUT) -m $(MAXC) && touch .lastcheck
 
 html/up:
 	mkdir -p html/up
@@ -60,37 +65,37 @@ html/index.html: .lastcheck
 	$(RENDER) -p active=all -o $@ templates/bbslist.html
 
 html/syncterm.lst: .lastcheck
-	ibbs export -o $@ -f syncterm
+	ibbs export -d $(BBSDB) -o $@ -f syncterm
 
 html/up/syncterm.lst: .lastcheck
-	ibbs export -o $@ -f syncterm -s up
+	ibbs export -d $(BBSDB) -o $@ -f syncterm -s up
 
 html/down/syncterm.lst: .lastcheck
-	ibbs export -o $@ -f syncterm -s down
+	ibbs export -d $(BBSDB) -o $@ -f syncterm -s down
 
 html/magiterm.ini: .lastcheck
-	ibbs export -o $@ -f magiterm
+	ibbs export -d $(BBSDB) -o $@ -f magiterm
 
 html/up/magiterm.ini: .lastcheck
-	ibbs export -o $@ -f magiterm -s up
+	ibbs export -d $(BBSDB) -o $@ -f magiterm -s up
 
 html/down/magiterm.ini: .lastcheck
-	ibbs export -o $@ -f magiterm -s down
+	ibbs export -d $(BBSDB) -o $@ -f magiterm -s down
 
 html/qodem.ini: .lastcheck
-	ibbs export -o $@ -f qodem
+	ibbs export -d $(BBSDB) -o $@ -f qodem
 
 html/up/qodem.ini: .lastcheck
-	ibbs export -o $@ -f qodem -s up
+	ibbs export -d $(BBSDB) -o $@ -f qodem -s up
 
 html/down/qodem.ini: .lastcheck
-	ibbs export -o $@ -f qodem -s down
+	ibbs export -d $(BBSDB) -o $@ -f qodem -s down
 
 html/etherterm.xml: .lastcheck
-	ibbs export -o $@ -f etherterm
+	ibbs export -d $(BBSDB) -o $@ -f etherterm
 
 html/up/etherterm.xml: .lastcheck
-	ibbs export -o $@ -f etherterm -s up
+	ibbs export -d $(BBSDB) -o $@ -f etherterm -s up
 
 html/down/etherterm.xml: .lastcheck
-	ibbs export -o $@ -f etherterm -s down
+	ibbs export -d $(BBSDB) -o $@ -f etherterm -s down

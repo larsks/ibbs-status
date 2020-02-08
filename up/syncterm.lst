@@ -728,6 +728,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Dark Side of the Moon (2)]
+        Address        =reasonablyinteresting.com
+        Port           =6502
+        ConnectionType =telnet
+
 [DarkAges BBS]
         Address        =darkagesbbs.com
         Port           =23
@@ -1258,6 +1263,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Haxxord]
+        Address        =bbs.haxxord.com
+        Port           =23
+        ConnectionType =telnet
+
 [Heatwave]
         Address        =heatwave.ddns.net
         Port           =9640
@@ -1382,6 +1392,16 @@
         Address        =www.exciter.ws
         Port           =23
         ConnectionType =telnet
+
+[KD3net]
+        Address        =bbs.kd3.us
+        Port           =23
+        ConnectionType =telnet
+
+[KD3net (SSH)]
+        Address        =bbs.kd3.us
+        Port           =22
+        ConnectionType =ssh
 
 [KD8HFX BBS]
         Address        =bbs.kd8hfx.net
@@ -1542,6 +1562,11 @@
         Address        =servsyte.duckdns.org
         Port           =22
         ConnectionType =ssh
+
+[MasterCom]
+        Address        =masterco.synchro.net
+        Port           =23
+        ConnectionType =telnet
 
 [MemphisTW]
         Address        =bbs.memphistw.org
@@ -1758,11 +1783,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Northern Borderlands BBS]
-        Address        =73.116.123.179
-        Port           =23
-        ConnectionType =telnet
-
 [Nut Asylum (1)]
         Address        =xtcbox.org
         Port           =2323
@@ -1793,11 +1813,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Onix BBS]
-        Address        =onixbbs.servebbs.com
-        Port           =23
-        ConnectionType =telnet
-
 [Online BBS]
         Address        =online-bbs.selfhost.bz
         Port           =23
@@ -1821,6 +1836,11 @@
 [Otnooishphoo]
         Address        =bbs.otnooishphoo.com
         Port           =23
+        ConnectionType =telnet
+
+[Outer Limits BBS]
+        Address        =outerlimitsbbs.ddns.net
+        Port           =8000
         ConnectionType =telnet
 
 [Outwest BBS]
@@ -2388,11 +2408,6 @@
         Port           =50022
         ConnectionType =ssh
 
-[Starbase 21]
-        Address        =bbs.starbase21.net
-        Port           =23
-        ConnectionType =telnet
-
 [Storm BBS]
         Address        =telnet.stormbbs.com
         Port           =23
@@ -2688,6 +2703,11 @@
         Port           =4667
         ConnectionType =telnet
 
+[Void BBS]
+        Address        =voidbbs.com
+        Port           =23
+        ConnectionType =telnet
+
 [Vortex BBS]
         Address        =vortexbbs.com
         Port           =23
@@ -2701,6 +2721,11 @@
 [W4BFB]
         Address        =packet.w4bfb.org
         Port           =2333
+        ConnectionType =telnet
+
+[WABAC Machine BBS]
+        Address        =wabac.ccsnet.com
+        Port           =23
         ConnectionType =telnet
 
 [WWIV Frontier BBS]
@@ -2722,6 +2747,16 @@
         Address        =wd1cks.org
         Port           =23
         ConnectionType =telnet
+
+[Wicked Garden BBS]
+        Address        =wgbbs.fsxnet.nz
+        Port           =23
+        ConnectionType =telnet
+
+[Wicked Garden BBS (SSH)]
+        Address        =wgbbs.fsxnet.nz
+        Port           =22
+        ConnectionType =ssh
 
 [Wildcat Prison BBS]
         Address        =wcalt.rdfig.net

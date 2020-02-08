@@ -83,11 +83,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Dark Side of the Moon (2)]
-        Address        =reasonablyinteresting.com
-        Port           =6502
-        ConnectionType =telnet
-
 [Decker's Heaven BBS]
         Address        =bbs.deckersheaven.com
         Port           =23
@@ -133,16 +128,6 @@
         Port           =22
         ConnectionType =ssh
 
-[KD3net]
-        Address        =bbs.kd3.us
-        Port           =23
-        ConnectionType =telnet
-
-[KD3net (SSH)]
-        Address        =bbs.kd3.us
-        Port           =22
-        ConnectionType =ssh
-
 [Legacy/X WHQ]
         Address        =exchangebbs.com
         Port           =23
@@ -155,11 +140,6 @@
 
 [Manic Modem BBS]
         Address        =telnet.manic-modem.com
-        Port           =23
-        ConnectionType =telnet
-
-[MasterCom]
-        Address        =masterco.synchro.net
         Port           =23
         ConnectionType =telnet
 
@@ -183,14 +163,19 @@
         Port           =504
         ConnectionType =telnet
 
+[Northern Borderlands BBS]
+        Address        =73.116.123.179
+        Port           =23
+        ConnectionType =telnet
+
 [Northern Borderlands BBS (SSH)]
         Address        =northernborderlands.ddns.net
         Port           =22
         ConnectionType =ssh
 
-[Outer Limits BBS]
-        Address        =outerlimitsbbs.ddns.net
-        Port           =8000
+[Onix BBS]
+        Address        =onixbbs.servebbs.com
+        Port           =23
         ConnectionType =telnet
 
 [Outpost BBS]
@@ -248,6 +233,11 @@
         Port           =6400
         ConnectionType =telnet
 
+[Starbase 21]
+        Address        =bbs.starbase21.net
+        Port           =23
+        ConnectionType =telnet
+
 [T311net BBS (SSH)]
         Address        =t311net.ddns.net
         Port           =2222
@@ -282,26 +272,6 @@
         Address        =uzisuicide.servebbs.org
         Port           =23
         ConnectionType =telnet
-
-[Void BBS]
-        Address        =voidbbs.com
-        Port           =23
-        ConnectionType =telnet
-
-[WABAC Machine BBS]
-        Address        =wabac.ccsnet.com
-        Port           =23
-        ConnectionType =telnet
-
-[Wicked Garden BBS]
-        Address        =wgbbs.fsxnet.nz
-        Port           =23
-        ConnectionType =telnet
-
-[Wicked Garden BBS (SSH)]
-        Address        =wgbbs.fsxnet.nz
-        Port           =22
-        ConnectionType =ssh
 
 [Wrong Number IV BBS]
         Address        =wn2.duckdns.org

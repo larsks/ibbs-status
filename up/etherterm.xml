@@ -1298,6 +1298,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Dark Side of the Moon (2)"
+      ip="reasonablyinteresting.com"
+      port="6502"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="DarkAges BBS"
       ip="darkagesbbs.com"
       port="23"
@@ -2252,6 +2261,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Haxxord"
+      ip="bbs.haxxord.com"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Heatwave"
       ip="heatwave.ddns.net"
       port="9640"
@@ -2472,6 +2490,24 @@
       ip="www.exciter.ws"
       port="23"
       protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="KD3net"
+      ip="bbs.kd3.us"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="KD3net (SSH)"
+      ip="bbs.kd3.us"
+      port="22"
+      protocol="SSH"
       login=""
       password=""
       font="vga8x16.bmp"
@@ -2760,6 +2796,15 @@
       ip="servsyte.duckdns.org"
       port="22"
       protocol="SSH"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="MasterCom"
+      ip="masterco.synchro.net"
+      port="23"
+      protocol="TELNET"
       login=""
       password=""
       font="vga8x16.bmp"
@@ -3152,15 +3197,6 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Northern Borderlands BBS"
-      ip="73.116.123.179"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Nut Asylum (1)"
       ip="xtcbox.org"
       port="2323"
@@ -3215,15 +3251,6 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Onix BBS"
-      ip="onixbbs.servebbs.com"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Online BBS"
       ip="online-bbs.selfhost.bz"
       port="23"
@@ -3263,6 +3290,15 @@
     <BBS name="Otnooishphoo"
       ip="bbs.otnooishphoo.com"
       port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Outer Limits BBS"
+      ip="outerlimitsbbs.ddns.net"
+      port="8000"
       protocol="TELNET"
       login=""
       password=""
@@ -4286,15 +4322,6 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Starbase 21"
-      ip="bbs.starbase21.net"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Storm BBS"
       ip="telnet.stormbbs.com"
       port="23"
@@ -4826,6 +4853,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Void BBS"
+      ip="voidbbs.com"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Vortex BBS"
       ip="vortexbbs.com"
       port="23"
@@ -4847,6 +4883,15 @@
     <BBS name="W4BFB"
       ip="packet.w4bfb.org"
       port="2333"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="WABAC Machine BBS"
+      ip="wabac.ccsnet.com"
+      port="23"
       protocol="TELNET"
       login=""
       password=""
@@ -4884,6 +4929,24 @@
       ip="wd1cks.org"
       port="23"
       protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Wicked Garden BBS"
+      ip="wgbbs.fsxnet.nz"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Wicked Garden BBS (SSH)"
+      ip="wgbbs.fsxnet.nz"
+      port="22"
+      protocol="SSH"
       login=""
       password=""
       font="vga8x16.bmp"

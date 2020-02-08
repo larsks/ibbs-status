@@ -2468,6 +2468,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Haxxord"
+      ip="bbs.haxxord.com"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Heatwave"
       ip="heatwave.ddns.net"
       port="9640"

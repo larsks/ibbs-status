@@ -137,15 +137,6 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Dark Side of the Moon (2)"
-      ip="reasonablyinteresting.com"
-      port="6502"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Decker's Heaven BBS"
       ip="bbs.deckersheaven.com"
       port="23"
@@ -227,24 +218,6 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="KD3net"
-      ip="bbs.kd3.us"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="KD3net (SSH)"
-      ip="bbs.kd3.us"
-      port="22"
-      protocol="SSH"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Legacy/X WHQ"
       ip="exchangebbs.com"
       port="23"
@@ -265,15 +238,6 @@
 
     <BBS name="Manic Modem BBS"
       ip="telnet.manic-modem.com"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="MasterCom"
-      ip="masterco.synchro.net"
       port="23"
       protocol="TELNET"
       login=""
@@ -317,6 +281,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Northern Borderlands BBS"
+      ip="73.116.123.179"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Northern Borderlands BBS (SSH)"
       ip="northernborderlands.ddns.net"
       port="22"
@@ -326,9 +299,9 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Outer Limits BBS"
-      ip="outerlimitsbbs.ddns.net"
-      port="8000"
+    <BBS name="Onix BBS"
+      ip="onixbbs.servebbs.com"
+      port="23"
       protocol="TELNET"
       login=""
       password=""
@@ -434,6 +407,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Starbase 21"
+      ip="bbs.starbase21.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="T311net BBS (SSH)"
       ip="t311net.ddns.net"
       port="2222"
@@ -492,42 +474,6 @@
       ip="uzisuicide.servebbs.org"
       port="23"
       protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Void BBS"
-      ip="voidbbs.com"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="WABAC Machine BBS"
-      ip="wabac.ccsnet.com"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Wicked Garden BBS"
-      ip="wgbbs.fsxnet.nz"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Wicked Garden BBS (SSH)"
-      ip="wgbbs.fsxnet.nz"
-      port="22"
-      protocol="SSH"
       login=""
       password=""
       font="vga8x16.bmp"

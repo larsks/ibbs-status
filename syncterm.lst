@@ -1378,6 +1378,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Haxxord]
+        Address        =bbs.haxxord.com
+        Port           =23
+        ConnectionType =telnet
+
 [Heatwave]
         Address        =heatwave.ddns.net
         Port           =9640

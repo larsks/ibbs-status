@@ -551,6 +551,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Before the Web"
+      ip="136.53.85.91"
+      port="23232"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Bento Box BBS"
       ip="bentoboxbbs.com"
       port="23"
@@ -2081,6 +2090,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Force9 BBS"
+      ip="bbs.force9.org"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Fourth (4th) Choice Core"
       ip="4thchoicecore.ddns.net"
       port="1026"
@@ -2459,6 +2477,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="House Hasson Online"
+      ip="216.195.204.118"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="House of Lunduke BBS"
       ip="bbs.lunduke.com"
       port="23"
@@ -2765,9 +2792,27 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Lean Angle BBS"
+      ip="winserver.org"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Legacy/X WHQ"
       ip="exchangebbs.com"
       port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Legends of Yesteryear"
+      ip="136.53.85.91"
+      port="23322"
       protocol="TELNET"
       login=""
       password=""
@@ -3962,6 +4007,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Raven BBS"
+      ip="telnet.ravenbbs.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Razecus BBS"
       ip="razecus.go.ro"
       port="23"
@@ -4612,6 +4666,15 @@
 
     <BBS name="Starbase 21"
       ip="bbs.starbase21.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Stepping Stone BBS"
+      ip="vintagebbsing.com"
       port="23"
       protocol="TELNET"
       login=""

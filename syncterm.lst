@@ -313,6 +313,11 @@
         Port           =8888
         ConnectionType =telnet
 
+[Before the Web]
+        Address        =136.53.85.91
+        Port           =23232
+        ConnectionType =telnet
+
 [Bento Box BBS]
         Address        =bentoboxbbs.com
         Port           =23
@@ -1163,6 +1168,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Force9 BBS]
+        Address        =bbs.force9.org
+        Port           =23
+        ConnectionType =telnet
+
 [Fourth (4th) Choice Core]
         Address        =4thchoicecore.ddns.net
         Port           =1026
@@ -1373,6 +1383,11 @@
         Port           =23
         ConnectionType =telnet
 
+[House Hasson Online]
+        Address        =216.195.204.118
+        Port           =23
+        ConnectionType =telnet
+
 [House of Lunduke BBS]
         Address        =bbs.lunduke.com
         Port           =23
@@ -1543,9 +1558,19 @@
         Port           =2323
         ConnectionType =telnet
 
+[Lean Angle BBS]
+        Address        =winserver.org
+        Port           =23
+        ConnectionType =telnet
+
 [Legacy/X WHQ]
         Address        =exchangebbs.com
         Port           =23
+        ConnectionType =telnet
+
+[Legends of Yesteryear]
+        Address        =136.53.85.91
+        Port           =23322
         ConnectionType =telnet
 
 [Leisure Time BBS]
@@ -2208,6 +2233,11 @@
         Port           =64128
         ConnectionType =telnet
 
+[Raven BBS]
+        Address        =telnet.ravenbbs.net
+        Port           =23
+        ConnectionType =telnet
+
 [Razecus BBS]
         Address        =razecus.go.ro
         Port           =23
@@ -2570,6 +2600,11 @@
 
 [Starbase 21]
         Address        =bbs.starbase21.net
+        Port           =23
+        ConnectionType =telnet
+
+[Stepping Stone BBS]
+        Address        =vintagebbsing.com
         Port           =23
         ConnectionType =telnet
 

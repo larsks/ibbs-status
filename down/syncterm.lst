@@ -8,11 +8,6 @@
         NoStatus       =true
 
 
-[Addicts Corner]
-        Address        =101.100.141.48
-        Port           =23
-        ConnectionType =telnet
-
 [Agency BBS (SSH)]
         Address        =agency.bbs.nz
         Port           =2024
@@ -37,11 +32,6 @@
         Address        =wwiv.bsbbs.com
         Port           =22
         ConnectionType =ssh
-
-[Blue Northern Software BBS]
-        Address        =bnsbbs.ddns.net
-        Port           =23000
-        ConnectionType =telnet
 
 [Bucko's Den]
         Address        =wn2.duckdns.org
@@ -78,9 +68,9 @@
         Port           =6402
         ConnectionType =telnet
 
-[Cyberia BBS (2)]
-        Address        =sysgod.org
-        Port           =23000
+[Crazy World BBS]
+        Address        =crazyworldbbs.com
+        Port           =23
         ConnectionType =telnet
 
 [DarkAges BBS]
@@ -90,11 +80,6 @@
 
 [Dragon's Lair BBS]
         Address        =dragon.vk3heg.net
-        Port           =23
-        ConnectionType =telnet
-
-[DragonsWeb Labs BBS]
-        Address        =bbs.dragonsweb.org
         Port           =23
         ConnectionType =telnet
 
@@ -111,6 +96,11 @@
 [Error 404 BBS]
         Address        =error404bbs.ddns.net
         Port           =404
+        ConnectionType =telnet
+
+[Funknown BBS]
+        Address        =fubbs.ddns.net
+        Port           =23
         ConnectionType =telnet
 
 [Grady's Liquor Store]
@@ -141,16 +131,6 @@
 [Leisure Time BBS]
         Address        =bbs.riddells.net
         Port           =10023
-        ConnectionType =telnet
-
-[MemphisTW]
-        Address        =bbs.memphistw.org
-        Port           =23
-        ConnectionType =telnet
-
-[Mozy's Swamp and Red Dwarf BBS]
-        Address        =bbs.mozysswamp.org
-        Port           =23
         ConnectionType =telnet
 
 [Mutiny BBS (SSH)]
@@ -203,14 +183,19 @@
         Port           =22
         ConnectionType =ssh
 
+[Old Time's Sake BBS]
+        Address        =konchoulias.no-ip.org
+        Port           =2323
+        ConnectionType =telnet
+
 [Orchestra BBS]
         Address        =sacrebase.servebbs.net
         Port           =486
         ConnectionType =telnet
 
-[Pepzi BBS]
-        Address        =pepzi.eu
-        Port           =23
+[Part-Time BBS]
+        Address        =ptbbs.ddns.net
+        Port           =8000
         ConnectionType =telnet
 
 [Quantum Wormhole]
@@ -226,6 +211,11 @@
 [RMSBBS]
         Address        =rmsbbs.ddns.net
         Port           =23
+        ConnectionType =telnet
+
+[Raiders Inc. BBS]
+        Address        =vintagebbsing.com
+        Port           =1337
         ConnectionType =telnet
 
 [Realitycheck BBS]
@@ -253,14 +243,29 @@
         Port           =6400
         ConnectionType =telnet
 
-[Starbase 21]
-        Address        =bbs.starbase21.net
+[Spy Visits Spy BBS]
+        Address        =spyvisitsspybbs.ddns.net
+        Port           =23
+        ConnectionType =telnet
+
+[Stepping Stone BBS]
+        Address        =vintagebbsing.com
         Port           =23
         ConnectionType =telnet
 
 [Storm BBS]
         Address        =telnet.stormbbs.com
         Port           =23
+        ConnectionType =telnet
+
+[Sursum Corda! BBS]
+        Address        =bbs.sursum-corda.com
+        Port           =23
+        ConnectionType =telnet
+
+[T311net BBS]
+        Address        =t311net.ddns.net
+        Port           =2323
         ConnectionType =telnet
 
 [Thunderbolt BBS]

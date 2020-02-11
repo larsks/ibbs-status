@@ -48,6 +48,11 @@
         Port           =31337
         ConnectionType =telnet
 
+[Addicts Corner]
+        Address        =101.100.141.48
+        Port           =23
+        ConnectionType =telnet
+
 [Agency BBS]
         Address        =agency.bbs.nz
         Port           =23
@@ -348,6 +353,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Blue Northern Software BBS]
+        Address        =bnsbbs.ddns.net
+        Port           =23000
+        ConnectionType =telnet
+
 [Blue Wave BBS]
         Address        =119.18.8.106
         Port           =23
@@ -633,11 +643,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Crazy World BBS]
-        Address        =crazyworldbbs.com
-        Port           =23
-        ConnectionType =telnet
-
 [Crystal Palace]
         Address        =cptalker.com
         Port           =9900
@@ -651,6 +656,11 @@
 [Cyberia BBS (1)]
         Address        =cyberiabbs.zapto.org
         Port           =23
+        ConnectionType =telnet
+
+[Cyberia BBS (2)]
+        Address        =sysgod.org
+        Port           =23000
         ConnectionType =telnet
 
 [Cyberspace BBS]
@@ -845,6 +855,11 @@
 
 [Dragon's Lair MUD]
         Address        =craftingforacure.synchronetbbs.org
+        Port           =23
+        ConnectionType =telnet
+
+[DragonsWeb Labs BBS]
+        Address        =bbs.dragonsweb.org
         Port           =23
         ConnectionType =telnet
 
@@ -1095,11 +1110,6 @@
 
 [Frugal Computing BBS]
         Address        =frugalbbs.com
-        Port           =23
-        ConnectionType =telnet
-
-[Funknown BBS]
-        Address        =fubbs.ddns.net
         Port           =23
         ConnectionType =telnet
 
@@ -1558,6 +1568,11 @@
         Port           =23
         ConnectionType =telnet
 
+[MemphisTW]
+        Address        =bbs.memphistw.org
+        Port           =23
+        ConnectionType =telnet
+
 [Mental Meltdown BBS]
         Address        =mentalmeltdown.us
         Port           =23
@@ -1620,6 +1635,11 @@
 
 [Moon Base Alpha]
         Address        =mba.dnsalias.com
+        Port           =23
+        ConnectionType =telnet
+
+[Mozy's Swamp and Red Dwarf BBS]
+        Address        =bbs.mozysswamp.org
         Port           =23
         ConnectionType =telnet
 
@@ -1763,11 +1783,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Old Time's Sake BBS]
-        Address        =konchoulias.no-ip.org
-        Port           =2323
-        ConnectionType =telnet
-
 [Oldschoolfl]
         Address        =oldschoo.synchro.net
         Port           =23
@@ -1843,11 +1858,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Part-Time BBS]
-        Address        =ptbbs.ddns.net
-        Port           =8000
-        ConnectionType =telnet
-
 [Particles! BBS]
         Address        =particlesbbs.dyndns.org
         Port           =6400
@@ -1865,6 +1875,11 @@
 
 [Penguin Pub]
         Address        =172.105.3.9
+        Port           =23
+        ConnectionType =telnet
+
+[Pepzi BBS]
+        Address        =pepzi.eu
         Port           =23
         ConnectionType =telnet
 
@@ -1996,11 +2011,6 @@
 [RSR Trip Radio]
         Address        =rsr.synchro.net
         Port           =23
-        ConnectionType =telnet
-
-[Raiders Inc. BBS]
-        Address        =vintagebbsing.com
-        Port           =1337
         ConnectionType =telnet
 
 [Raketfart's BBS]
@@ -2353,8 +2363,8 @@
         Port           =50022
         ConnectionType =ssh
 
-[Stepping Stone BBS]
-        Address        =vintagebbsing.com
+[Starbase 21]
+        Address        =bbs.starbase21.net
         Port           =23
         ConnectionType =telnet
 
@@ -2370,11 +2380,6 @@
 
 [Super Dimension Fortress (SDF-1)]
         Address        =sdf.lonestar.org
-        Port           =23
-        ConnectionType =telnet
-
-[Sursum Corda! BBS]
-        Address        =bbs.sursum-corda.com
         Port           =23
         ConnectionType =telnet
 
@@ -2396,11 +2401,6 @@
 [System One BBS]
         Address        =systemone.ddns.net
         Port           =6400
-        ConnectionType =telnet
-
-[T311net BBS]
-        Address        =t311net.ddns.net
-        Port           =2323
         ConnectionType =telnet
 
 [T311net BBS (SSH)]
@@ -2665,11 +2665,6 @@
 
 [Vortex BBS]
         Address        =vortexbbs.com
-        Port           =23
-        ConnectionType =telnet
-
-[W0PR BBS]
-        Address        =w0pr.win
         Port           =23
         ConnectionType =telnet
 

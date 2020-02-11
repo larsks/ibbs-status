@@ -2578,6 +2578,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Spy Visits Spy BBS]
+        Address        =spyvisitsspybbs.ddns.net
+        Port           =23
+        ConnectionType =telnet
+
 [St. Guild BBS]
         Address        =stguildbbs.ddns.net
         Port           =23
@@ -2945,11 +2950,6 @@
 
 [Vortex BBS]
         Address        =vortexbbs.com
-        Port           =23
-        ConnectionType =telnet
-
-[W0PR BBS]
-        Address        =w0pr.win
         Port           =23
         ConnectionType =telnet
 

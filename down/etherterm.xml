@@ -2,15 +2,6 @@
 <EtherTerm>
   <Phonebook version="1.0">
 
-    <BBS name="Addicts Corner"
-      ip="101.100.141.48"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Agency BBS (SSH)"
       ip="agency.bbs.nz"
       port="2024"
@@ -51,15 +42,6 @@
       ip="wwiv.bsbbs.com"
       port="22"
       protocol="SSH"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Blue Northern Software BBS"
-      ip="bnsbbs.ddns.net"
-      port="23000"
-      protocol="TELNET"
       login=""
       password=""
       font="vga8x16.bmp"
@@ -128,9 +110,9 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Cyberia BBS (2)"
-      ip="sysgod.org"
-      port="23000"
+    <BBS name="Crazy World BBS"
+      ip="crazyworldbbs.com"
+      port="23"
       protocol="TELNET"
       login=""
       password=""
@@ -148,15 +130,6 @@
 
     <BBS name="Dragon's Lair BBS"
       ip="dragon.vk3heg.net"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="DragonsWeb Labs BBS"
-      ip="bbs.dragonsweb.org"
       port="23"
       protocol="TELNET"
       login=""
@@ -185,6 +158,15 @@
     <BBS name="Error 404 BBS"
       ip="error404bbs.ddns.net"
       port="404"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Funknown BBS"
+      ip="fubbs.ddns.net"
+      port="23"
       protocol="TELNET"
       login=""
       password=""
@@ -239,24 +221,6 @@
     <BBS name="Leisure Time BBS"
       ip="bbs.riddells.net"
       port="10023"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="MemphisTW"
-      ip="bbs.memphistw.org"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Mozy's Swamp and Red Dwarf BBS"
-      ip="bbs.mozysswamp.org"
-      port="23"
       protocol="TELNET"
       login=""
       password=""
@@ -353,6 +317,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Old Time's Sake BBS"
+      ip="konchoulias.no-ip.org"
+      port="2323"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Orchestra BBS"
       ip="sacrebase.servebbs.net"
       port="486"
@@ -362,9 +335,9 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Pepzi BBS"
-      ip="pepzi.eu"
-      port="23"
+    <BBS name="Part-Time BBS"
+      ip="ptbbs.ddns.net"
+      port="8000"
       protocol="TELNET"
       login=""
       password=""
@@ -392,6 +365,15 @@
     <BBS name="RMSBBS"
       ip="rmsbbs.ddns.net"
       port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Raiders Inc. BBS"
+      ip="vintagebbsing.com"
+      port="1337"
       protocol="TELNET"
       login=""
       password=""
@@ -443,8 +425,17 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Starbase 21"
-      ip="bbs.starbase21.net"
+    <BBS name="Spy Visits Spy BBS"
+      ip="spyvisitsspybbs.ddns.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Stepping Stone BBS"
+      ip="vintagebbsing.com"
       port="23"
       protocol="TELNET"
       login=""
@@ -455,6 +446,24 @@
     <BBS name="Storm BBS"
       ip="telnet.stormbbs.com"
       port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Sursum Corda! BBS"
+      ip="bbs.sursum-corda.com"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="T311net BBS"
+      ip="t311net.ddns.net"
+      port="2323"
       protocol="TELNET"
       login=""
       password=""

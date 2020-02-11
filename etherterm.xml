@@ -4628,6 +4628,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Spy Visits Spy BBS"
+      ip="spyvisitsspybbs.ddns.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="St. Guild BBS"
       ip="stguildbbs.ddns.net"
       port="23"
@@ -5287,15 +5296,6 @@
 
     <BBS name="Vortex BBS"
       ip="vortexbbs.com"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="W0PR BBS"
-      ip="w0pr.win"
       port="23"
       protocol="TELNET"
       login=""

@@ -1208,6 +1208,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Convolution BBS"
+      ip="convolution.us"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Cosmik Debris BBS"
       ip="cosmikdebris.ddns.net"
       port="2323"
@@ -1397,6 +1406,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Dark Side of the Moon (2)"
+      ip="reasonablyinteresting.com"
+      port="6502"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="DarkAges BBS"
       ip="darkagesbbs.com"
       port="23"
@@ -1577,6 +1595,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Digital Realms BBS"
+      ip="connect.digitalrealms.net"
+      port="2323"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="DigitalDial-Sta#1"
       ip="digitaldial.homeunix.com"
       port="2300"
@@ -1642,6 +1669,15 @@
 
     <BBS name="DoveOnly BBS"
       ip="casper.homeip.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Dragon's Gate BBS"
+      ip="98.127.70.11"
       port="23"
       protocol="TELNET"
       login=""
@@ -2084,6 +2120,15 @@
     <BBS name="Flynn's Arcade BBS"
       ip="bbs.webbhq.net"
       port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Fone Company"
+      ip="tfcbbs.com"
+      port="6400"
       protocol="TELNET"
       login=""
       password=""

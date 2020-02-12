@@ -678,6 +678,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Convolution BBS]
+        Address        =convolution.us
+        Port           =23
+        ConnectionType =telnet
+
 [Cosmik Debris BBS]
         Address        =cosmikdebris.ddns.net
         Port           =2323
@@ -783,6 +788,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Dark Side of the Moon (2)]
+        Address        =reasonablyinteresting.com
+        Port           =6502
+        ConnectionType =telnet
+
 [DarkAges BBS]
         Address        =darkagesbbs.com
         Port           =23
@@ -883,6 +893,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Digital Realms BBS]
+        Address        =connect.digitalrealms.net
+        Port           =2323
+        ConnectionType =telnet
+
 [DigitalDial-Sta#1]
         Address        =digitaldial.homeunix.com
         Port           =2300
@@ -920,6 +935,11 @@
 
 [DoveOnly BBS]
         Address        =casper.homeip.net
+        Port           =23
+        ConnectionType =telnet
+
+[Dragon's Gate BBS]
+        Address        =98.127.70.11
         Port           =23
         ConnectionType =telnet
 
@@ -1166,6 +1186,11 @@
 [Flynn's Arcade BBS]
         Address        =bbs.webbhq.net
         Port           =23
+        ConnectionType =telnet
+
+[Fone Company]
+        Address        =tfcbbs.com
+        Port           =6400
         ConnectionType =telnet
 
 [Force9 BBS]

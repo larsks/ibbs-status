@@ -93,6 +93,11 @@
         Port           =2002
         ConnectionType =telnet
 
+[Altertex BBS]
+        Address        =altertex.synchronetbbs.org
+        Port           =23
+        ConnectionType =telnet
+
 [Amiga City]
         Address        =amigacity.xyz
         Port           =23
@@ -1698,6 +1703,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Major Mudd]
+        Address        =73.111.12.74
+        Port           =23
+        ConnectionType =telnet
+
 [Malkonix's Place BBS]
         Address        =servsyte.duckdns.org
         Port           =6023
@@ -1826,6 +1836,11 @@
 [Mystic Dreams]
         Address        =mysticdreams.dyndns.org
         Port           =24
+        ConnectionType =telnet
+
+[Mystic Night BBS]
+        Address        =68.56.181.134
+        Port           =23
         ConnectionType =telnet
 
 [Mystic PI BBS]
@@ -2026,6 +2041,11 @@
 [Outer Limits BBS]
         Address        =outerlimitsbbs.ddns.net
         Port           =8000
+        ConnectionType =telnet
+
+[Outta Control MajorBBS]
+        Address        =68.204.39.25
+        Port           =23
         ConnectionType =telnet
 
 [Outwest BBS]
@@ -2363,6 +2383,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Rockville Tavern BBS]
+        Address        =bbs.rockvilletavern.com
+        Port           =23
+        ConnectionType =telnet
+
 [Rust Belt BBS]
         Address        =rbbbs.mtonetwork.com
         Port           =23
@@ -2453,6 +2478,11 @@
         Port           =2323
         ConnectionType =telnet
 
+[Section One BBS]
+        Address        =sectiononebbs.com
+        Port           =23
+        ConnectionType =telnet
+
 [Segfault BBS]
         Address        =segfault.hopto.org
         Port           =2324
@@ -2525,6 +2555,11 @@
 
 [Slasho.me BBS]
         Address        =slasho.me
+        Port           =23
+        ConnectionType =telnet
+
+[Slate Hell BBS]
+        Address        =msbgtn01.synchro.net
         Port           =23
         ConnectionType =telnet
 

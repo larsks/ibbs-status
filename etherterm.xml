@@ -155,6 +155,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Altertex BBS"
+      ip="altertex.synchronetbbs.org"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Amiga City"
       ip="amigacity.xyz"
       port="23"
@@ -3044,6 +3053,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Major Mudd"
+      ip="73.111.12.74"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Malkonix's Place BBS"
       ip="servsyte.duckdns.org"
       port="6023"
@@ -3272,6 +3290,15 @@
     <BBS name="Mystic Dreams"
       ip="mysticdreams.dyndns.org"
       port="24"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Mystic Night BBS"
+      ip="68.56.181.134"
+      port="23"
       protocol="TELNET"
       login=""
       password=""
@@ -3632,6 +3659,15 @@
     <BBS name="Outer Limits BBS"
       ip="outerlimitsbbs.ddns.net"
       port="8000"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Outta Control MajorBBS"
+      ip="68.204.39.25"
+      port="23"
       protocol="TELNET"
       login=""
       password=""
@@ -4241,6 +4277,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Rockville Tavern BBS"
+      ip="bbs.rockvilletavern.com"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Rust Belt BBS"
       ip="rbbbs.mtonetwork.com"
       port="23"
@@ -4403,6 +4448,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Section One BBS"
+      ip="sectiononebbs.com"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Segfault BBS"
       ip="segfault.hopto.org"
       port="2324"
@@ -4531,6 +4585,15 @@
 
     <BBS name="Slasho.me BBS"
       ip="slasho.me"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Slate Hell BBS"
+      ip="msbgtn01.synchro.net"
       port="23"
       protocol="TELNET"
       login=""

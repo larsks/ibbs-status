@@ -99,3 +99,6 @@ html/up/etherterm.xml: .lastcheck
 
 html/down/etherterm.xml: .lastcheck
 	ibbs export -d $(BBSDB) -o $@ -f etherterm -s down
+
+publish: 
+	ghp-import -p html

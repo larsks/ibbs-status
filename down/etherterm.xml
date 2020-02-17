@@ -2,26 +2,8 @@
 <EtherTerm>
   <Phonebook version="1.0">
 
-    <BBS name="Alley Cat BBS"
-      ip="alleycat.synchro.net"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Babes On Fire"
       ip="babesonfire.nl "
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Bandit BBS"
-      ip="clark-home.com"
       port="23"
       protocol="TELNET"
       login=""
@@ -33,6 +15,15 @@
       ip="basement.synchro.net"
       port="2222"
       protocol="SSH"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Big Meowc's Lounge"
+      ip="66.61.115.150"
+      port="23"
+      protocol="TELNET"
       login=""
       password=""
       font="vga8x16.bmp"
@@ -56,15 +47,6 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Blue Northern Software BBS"
-      ip="bnsbbs.ddns.net"
-      port="23000"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Bucko's Den"
       ip="wn2.duckdns.org"
       port="6407"
@@ -74,26 +56,8 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Capitol Shrill BBS"
-      ip="capitolshrill.com"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Capitol Shrill BBS (SSH)"
-      ip="capitolshrill.com"
-      port="22"
-      protocol="SSH"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Commodore4ever BBS"
-      ip="commodore4everbbs.dynu.net"
+    <BBS name="Centronian BBS"
+      ip="bbs.centronian.ca"
       port="6400"
       protocol="TELNET"
       login=""
@@ -101,36 +65,18 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Crazy World BBS"
-      ip="crazyworldbbs.com"
-      port="23"
+    <BBS name="Cosmo's Castle"
+      ip="ccbbs.zapto.org"
+      port="3143"
       protocol="TELNET"
       login=""
       password=""
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Curse of Fenric"
-      ip="fenric.muppetwhore.net"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Days of Old BBS"
-      ip="daysofoldbbs.wilhartsolutions.com"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Dragon's Gate BBS"
-      ip="98.127.70.11"
-      port="23"
+    <BBS name="Crackerjak"
+      ip="73.211.36.225"
+      port="2323"
       protocol="TELNET"
       login=""
       password=""
@@ -146,8 +92,53 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Ink Two"
-      ip="bbs.inktwo.com"
+    <BBS name="Emcomm NY"
+      ip="emcommny.synchro.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Emcomm NY (SSH)"
+      ip="emcommny.synchro.net"
+      port="22"
+      protocol="SSH"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Emergency Scene"
+      ip="bbs.emergencyscene.net"
+      port="2475"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Grady's Liquor Store"
+      ip="hcow.dynu.net"
+      port="2323"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Guild of the Dragon"
+      ip="autodiscover.justindube.co"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Haciend El Bananas"
+      ip="188.166.9.190 "
       port="23"
       protocol="TELNET"
       login=""
@@ -164,27 +155,9 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Lair Of The Wolverine"
-      ip="defshard.synology.me"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Leisure Time BBS"
-      ip="bbs.riddells.net"
-      port="10023"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Lostcause Halfway House BBS"
-      ip="34.227.11.246"
-      port="23"
+    <BBS name="LV-426 BBS"
+      ip="lv426bbs.hopto.org"
+      port="6464"
       protocol="TELNET"
       login=""
       password=""
@@ -200,18 +173,18 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="NVCrypt"
-      ip="nvcrypt.com"
-      port="23"
+    <BBS name="Mystic Prison Board BBS"
+      ip="pbmystic.rdfig.net"
+      port="24"
       protocol="TELNET"
       login=""
       password=""
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Necronomicon BBS"
+    <BBS name="Necronomicon BBS (CNet)"
       ip="necrobbs.strangled.net"
-      port="23"
+      port="40"
       protocol="TELNET"
       login=""
       password=""
@@ -245,15 +218,6 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="North Central Ohio Freenet"
-      ip="66.61.118.81"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Northern Borderlands BBS"
       ip="73.116.123.179"
       port="23"
@@ -272,6 +236,60 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Old Time's Sake BBS"
+      ip="konchoulias.no-ip.org"
+      port="2323"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="PB PCBoard BBS"
+      ip="pbmystic.rdfig.net"
+      port="1023"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Pepzi BBS"
+      ip="pepzi.eu"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Prism BBS"
+      ip="filegate.net"
+      port="2030"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Quantum Wormhole"
+      ip="bbs.erb.pw"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Quantum Wormhole (SSH)"
+      ip="bbs.erb.pw"
+      port="45022"
+      protocol="SSH"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Quazar BBS Door Game Server"
       ip="quazarbbs.dynu.net"
       port="2323"
@@ -281,8 +299,8 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Retro Devops BBS"
-      ip="13.72.230.17"
+    <BBS name="RSR Trip Radio"
+      ip="rsr.synchro.net"
       port="23"
       protocol="TELNET"
       login=""
@@ -290,9 +308,18 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Second Foundation"
-      ip="second-foundation.ddns.net"
-      port="2323"
+    <BBS name="Retrocomputacion BBS"
+      ip="retrocomputacion.ddns.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Segfault BBS"
+      ip="segfault.hopto.org"
+      port="2324"
       protocol="TELNET"
       login=""
       password=""
@@ -308,37 +335,10 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Starbase 21"
-      ip="bbs.starbase21.net"
+    <BBS name="Swegland"
+      ip="bbs.benoneill.xyz"
       port="23"
       protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Storm BBS"
-      ip="telnet.stormbbs.com"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="T311net BBS"
-      ip="t311net.ddns.net"
-      port="2323"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="T311net BBS (SSH)"
-      ip="t311net.ddns.net"
-      port="2222"
-      protocol="SSH"
       login=""
       password=""
       font="vga8x16.bmp"
@@ -371,19 +371,19 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Twinkle BBS"
-      ip="twinklebbs.xyz"
-      port="23"
-      protocol="TELNET"
+    <BBS name="Undercurrents BBS (Enigma) (SSH)"
+      ip="8086"
+      port="22"
+      protocol="SSH"
       login=""
       password=""
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Undercurrents BBS (Enigma) (SSH)"
-      ip="8086"
-      port="22"
-      protocol="SSH"
+    <BBS name="Virtual Terminal BBS"
+      ip="bbs.kernelerror.com"
+      port="10023"
+      protocol="TELNET"
       login=""
       password=""
       font="vga8x16.bmp"
@@ -407,24 +407,6 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Wildcat Prison BBS"
-      ip="wcalt.rdfig.net"
-      port="2324"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Winchester BBS"
-      ip="cvdcamilleri.dns05.com"
-      port="6666"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Wrong Number IV BBS"
       ip="wn2.duckdns.org"
       port="3000"
@@ -437,6 +419,15 @@
     <BBS name="Wrong Number V BBS"
       ip="wn2.duckdns.org"
       port="6408"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Zombie Zone"
+      ip="hcow.dynu.net"
+      port="61912"
       protocol="TELNET"
       login=""
       password=""

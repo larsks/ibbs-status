@@ -146,6 +146,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Alley Cat BBS"
+      ip="alleycat.synchro.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Alpha Centauri BBS"
       ip="acentauribbs.no-ip.org"
       port="2002"
@@ -301,6 +310,15 @@
 
     <BBS name="Arctic Zone BBS"
       ip="bbs.arcticzonebbs.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Argen-X BBS"
+      ip="sysop.kozow.com"
       port="23"
       protocol="TELNET"
       login=""
@@ -635,6 +653,15 @@
     <BBS name="Black House BBS"
       ip="blackhouse.synchronetbbs.org"
       port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Black Lodge Research BBS"
+      ip="blacklodge.fsxnet.nz"
+      port="4023"
       protocol="TELNET"
       login=""
       password=""
@@ -1226,15 +1253,6 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Crackerjak"
-      ip="73.211.36.225"
-      port="2323"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Crazy Eric's BBS"
       ip="bbs.crazyerics.com"
       port="23"
@@ -1319,6 +1337,15 @@
     <BBS name="DOSzombie BBS"
       ip="bbs.doszombie.com"
       port="9000"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Dales BBS"
+      ip="dalesbbs.fsxnet.nz"
+      port="2323"
       protocol="TELNET"
       login=""
       password=""
@@ -2126,7 +2153,7 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Free Speak BBS"
+    <BBS name="FreeSpeak BBS"
       ip="freespeak.hopto.org"
       port="23"
       protocol="TELNET"
@@ -2795,6 +2822,15 @@
     <BBS name="LV-426 BBS"
       ip="lv426bbs.hopto.org"
       port="6464"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Lair Of The Wolverine"
+      ip="defshard.synology.me"
+      port="23"
       protocol="TELNET"
       login=""
       password=""
@@ -3602,6 +3638,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Omicron Theta BBS"
+      ip="winserver.org"
+      port="2300"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Onix BBS"
       ip="onixbbs.servebbs.com"
       port="23"
@@ -4322,6 +4367,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="S.W.A.T.S BBS"
+      ip="swatsbbs.ddns.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="SBB Systems"
       ip="bbs.sbbsystems.com"
       port="8888"
@@ -4442,6 +4496,24 @@
     <BBS name="Second (2nd) Choice Core"
       ip="2ndchoicecore.ddns.net"
       port="1024"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Second Coming BBS"
+      ip="scbbs.ddns.net"
+      port="6400"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Second Foundation"
+      ip="second-foundation.ddns.net"
+      port="2323"
       protocol="TELNET"
       login=""
       password=""
@@ -4862,6 +4934,24 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="T311net BBS"
+      ip="t311net.ddns.net"
+      port="2323"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="T311net BBS (SSH)"
+      ip="t311net.ddns.net"
+      port="2222"
+      protocol="SSH"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="TAK Software BBS"
       ip="bbs.taksoftware.com"
       port="23"
@@ -5116,6 +5206,15 @@
 
     <BBS name="Trex BBS"
       ip="trexbbs.org"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Twinkle BBS"
+      ip="twinklebbs.xyz"
       port="23"
       protocol="TELNET"
       login=""
@@ -5406,6 +5505,24 @@
       ip="bbs.weather-station.org"
       port="23"
       protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="What the Dormouse Said"
+      ip="whatthed.synchro.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="What the Dormouse Said (SSH)"
+      ip="whatthed.synchro.net"
+      port="22"
+      protocol="SSH"
       login=""
       password=""
       font="vga8x16.bmp"

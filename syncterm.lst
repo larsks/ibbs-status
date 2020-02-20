@@ -88,6 +88,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Alley Cat BBS]
+        Address        =alleycat.synchro.net
+        Port           =23
+        ConnectionType =telnet
+
 [Alpha Centauri BBS]
         Address        =acentauribbs.no-ip.org
         Port           =2002
@@ -175,6 +180,11 @@
 
 [Arctic Zone BBS]
         Address        =bbs.arcticzonebbs.net
+        Port           =23
+        ConnectionType =telnet
+
+[Argen-X BBS]
+        Address        =sysop.kozow.com
         Port           =23
         ConnectionType =telnet
 
@@ -361,6 +371,11 @@
 [Black House BBS]
         Address        =blackhouse.synchronetbbs.org
         Port           =23
+        ConnectionType =telnet
+
+[Black Lodge Research BBS]
+        Address        =blacklodge.fsxnet.nz
+        Port           =4023
         ConnectionType =telnet
 
 [BlackICE]
@@ -688,11 +703,6 @@
         Port           =6502
         ConnectionType =telnet
 
-[Crackerjak]
-        Address        =73.211.36.225
-        Port           =2323
-        ConnectionType =telnet
-
 [Crazy Eric's BBS]
         Address        =bbs.crazyerics.com
         Port           =23
@@ -741,6 +751,11 @@
 [DOSzombie BBS]
         Address        =bbs.doszombie.com
         Port           =9000
+        ConnectionType =telnet
+
+[Dales BBS]
+        Address        =dalesbbs.fsxnet.nz
+        Port           =2323
         ConnectionType =telnet
 
 [Danger Bay BBS]
@@ -1188,7 +1203,7 @@
         Port           =8888
         ConnectionType =telnet
 
-[Free Speak BBS]
+[FreeSpeak BBS]
         Address        =freespeak.hopto.org
         Port           =23
         ConnectionType =telnet
@@ -1561,6 +1576,11 @@
 [LV-426 BBS]
         Address        =lv426bbs.hopto.org
         Port           =6464
+        ConnectionType =telnet
+
+[Lair Of The Wolverine]
+        Address        =defshard.synology.me
+        Port           =23
         ConnectionType =telnet
 
 [Land of Mysticism]
@@ -2008,6 +2028,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Omicron Theta BBS]
+        Address        =winserver.org
+        Port           =2300
+        ConnectionType =telnet
+
 [Onix BBS]
         Address        =onixbbs.servebbs.com
         Port           =23
@@ -2408,6 +2433,11 @@
         Port           =2024
         ConnectionType =ssh
 
+[S.W.A.T.S BBS]
+        Address        =swatsbbs.ddns.net
+        Port           =23
+        ConnectionType =telnet
+
 [SBB Systems]
         Address        =bbs.sbbsystems.com
         Port           =8888
@@ -2476,6 +2506,16 @@
 [Second (2nd) Choice Core]
         Address        =2ndchoicecore.ddns.net
         Port           =1024
+        ConnectionType =telnet
+
+[Second Coming BBS]
+        Address        =scbbs.ddns.net
+        Port           =6400
+        ConnectionType =telnet
+
+[Second Foundation]
+        Address        =second-foundation.ddns.net
+        Port           =2323
         ConnectionType =telnet
 
 [Section One BBS]
@@ -2708,6 +2748,16 @@
         Port           =6400
         ConnectionType =telnet
 
+[T311net BBS]
+        Address        =t311net.ddns.net
+        Port           =2323
+        ConnectionType =telnet
+
+[T311net BBS (SSH)]
+        Address        =t311net.ddns.net
+        Port           =2222
+        ConnectionType =ssh
+
 [TAK Software BBS]
         Address        =bbs.taksoftware.com
         Port           =23
@@ -2850,6 +2900,11 @@
 
 [Trex BBS]
         Address        =trexbbs.org
+        Port           =23
+        ConnectionType =telnet
+
+[Twinkle BBS]
+        Address        =twinklebbs.xyz
         Port           =23
         ConnectionType =telnet
 
@@ -3012,6 +3067,16 @@
         Address        =bbs.weather-station.org
         Port           =23
         ConnectionType =telnet
+
+[What the Dormouse Said]
+        Address        =whatthed.synchro.net
+        Port           =23
+        ConnectionType =telnet
+
+[What the Dormouse Said (SSH)]
+        Address        =whatthed.synchro.net
+        Port           =22
+        ConnectionType =ssh
 
 [Whisky Lover's Amateur Radio BBS]
         Address        =wd1cks.org

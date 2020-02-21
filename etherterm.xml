@@ -443,15 +443,6 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Back to The Bible BBS"
-      ip="backtothebiblebbs.ddns.net"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Back to the Future"
       ip="bttfbbs.com"
       port="23"
@@ -1669,6 +1660,15 @@
 
     <BBS name="DoveOnly BBS"
       ip="casper.homeip.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Dragon's Gate BBS"
+      ip="98.127.70.11"
       port="23"
       protocol="TELNET"
       login=""
@@ -3710,6 +3710,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Outpost BBS"
+      ip="bbs.outpostbbs.net"
+      port="10123"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Outta Control MajorBBS"
       ip="68.204.39.25"
       port="23"
@@ -4801,6 +4810,15 @@
 
     <BBS name="Spider Skull Island BBS"
       ip="69.247.80.26"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Spy Visits Spy BBS"
+      ip="spyvisitsspybbs.com"
       port="23"
       protocol="TELNET"
       login=""

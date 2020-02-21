@@ -253,11 +253,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Back to The Bible BBS]
-        Address        =backtothebiblebbs.ddns.net
-        Port           =23
-        ConnectionType =telnet
-
 [Back to the Future]
         Address        =bttfbbs.com
         Port           =23
@@ -935,6 +930,11 @@
 
 [DoveOnly BBS]
         Address        =casper.homeip.net
+        Port           =23
+        ConnectionType =telnet
+
+[Dragon's Gate BBS]
+        Address        =98.127.70.11
         Port           =23
         ConnectionType =telnet
 
@@ -2068,6 +2068,11 @@
         Port           =8000
         ConnectionType =telnet
 
+[Outpost BBS]
+        Address        =bbs.outpostbbs.net
+        Port           =10123
+        ConnectionType =telnet
+
 [Outta Control MajorBBS]
         Address        =68.204.39.25
         Port           =23
@@ -2675,6 +2680,11 @@
 
 [Spider Skull Island BBS]
         Address        =69.247.80.26
+        Port           =23
+        ConnectionType =telnet
+
+[Spy Visits Spy BBS]
+        Address        =spyvisitsspybbs.com
         Port           =23
         ConnectionType =telnet
 

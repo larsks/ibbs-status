@@ -8,6 +8,11 @@
         NoStatus       =true
 
 
+[56K Majormud BBS]
+        Address        =56kmajormud.servegame.com
+        Port           =23
+        ConnectionType =telnet
+
 [A 80's Apple II BBS]
         Address        =a80sappleiibbs.ddns.net
         Port           =6502
@@ -773,6 +778,11 @@
         Port           =6502
         ConnectionType =telnet
 
+[DarkAges BBS]
+        Address        =darkagesbbs.com
+        Port           =23
+        ConnectionType =telnet
+
 [Darkscience BBS]
         Address        =bbs.darkscience.net
         Port           =23
@@ -1093,11 +1103,6 @@
         Port           =2323
         ConnectionType =telnet
 
-[Fifty-Six (56K) Majormud BBS]
-        Address        =56kmajormud.servegame.com
-        Port           =23
-        ConnectionType =telnet
-
 [File Bank BBS]
         Address        =tfb-bbs.org
         Port           =23
@@ -1271,6 +1276,11 @@
 [Goodwin BBS]
         Address        =bbs.goodwin.synchronetbbs.org
         Port           =23
+        ConnectionType =telnet
+
+[Grady's Liquor Store]
+        Address        =hcow.dynu.net
+        Port           =2323
         ConnectionType =telnet
 
 [Graveyard BBS]
@@ -1546,6 +1556,11 @@
 [LU8FJH BBS]
         Address        =190.195.199.159
         Port           =23
+        ConnectionType =telnet
+
+[LV-426 BBS]
+        Address        =lv426bbs.hopto.org
+        Port           =6464
         ConnectionType =telnet
 
 [Lair Of The Wolverine]
@@ -2858,6 +2873,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Two Dudes BBS]
+        Address        =twodudesbbs.com
+        Port           =23
+        ConnectionType =telnet
+
 [Uncensored!]
         Address        =uncensored.citadel.org
         Port           =23
@@ -3131,6 +3151,11 @@
 [Zenolab]
         Address        =zenolab.synchro.net
         Port           =23
+        ConnectionType =telnet
+
+[Zombie Zone]
+        Address        =hcow.dynu.net
+        Port           =61912
         ConnectionType =telnet
 
 [Zone BBS]

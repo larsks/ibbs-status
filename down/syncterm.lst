@@ -13,6 +13,11 @@
         Port           =23
         ConnectionType =telnet
 
+[BBS MouseNet]
+        Address        =bbs-mousenet.dynip.online
+        Port           =23
+        ConnectionType =telnet
+
 [Babes On Fire]
         Address        =babesonfire.nl 
         Port           =23
@@ -27,6 +32,16 @@
         Address        =wwiv.bsbbs.com
         Port           =22
         ConnectionType =ssh
+
+[Blue Wave BBS]
+        Address        =119.18.8.106
+        Port           =23
+        ConnectionType =telnet
+
+[Capitol Shrill BBS]
+        Address        =capitolshrill.com
+        Port           =23
+        ConnectionType =telnet
 
 [Capitol Shrill BBS (SSH)]
         Address        =capitolshrill.com
@@ -43,11 +58,6 @@
         Port           =23
         ConnectionType =telnet
 
-[DragonsWeb Labs BBS]
-        Address        =bbs.dragonsweb.org
-        Port           =23
-        ConnectionType =telnet
-
 [Eggy BBS]
         Address        =bbs.eggy.cc:
         Port           =2300
@@ -58,20 +68,30 @@
         Port           =23
         ConnectionType =telnet
 
+[FlupH BBS]
+        Address        =fluph.zapto.org
+        Port           =23
+        ConnectionType =telnet
+
 [Haciend El Bananas]
         Address        =188.166.9.190 
         Port           =23
         ConnectionType =telnet
 
-[Hysteria BBS]
-        Address        =hysteriabbs.com
-        Port           =23
+[Hawaii BBS Atari 8 Bit]
+        Address        =atari-bbs.zapto.org
+        Port           =8888
         ConnectionType =telnet
 
 [Insane Asylum BBS (SSH)]
         Address        =tiabbs.synchro.net
         Port           =22
         ConnectionType =ssh
+
+[Jay's Cafe]
+        Address        =bbs.jayscafe.net
+        Port           =23
+        ConnectionType =telnet
 
 [Lean Angle BBS]
         Address        =winserver.org
@@ -88,8 +108,8 @@
         Port           =22
         ConnectionType =ssh
 
-[Necronomicon BBS]
-        Address        =necrobbs.strangled.net
+[Network 23]
+        Address        =network23.ch
         Port           =23
         ConnectionType =telnet
 
@@ -103,13 +123,18 @@
         Port           =22
         ConnectionType =ssh
 
+[Nola Carrier]
+        Address        =nolacarrier.com
+        Port           =504
+        ConnectionType =telnet
+
 [Northern Borderlands BBS (SSH)]
         Address        =northernborderlands.ddns.net
         Port           =22
         ConnectionType =ssh
 
-[Oldschoolfl]
-        Address        =oldschoo.synchro.net
+[Nut Asylum (2)]
+        Address        =xtcbox.org
         Port           =23
         ConnectionType =telnet
 
@@ -128,20 +153,10 @@
         Port           =2323
         ConnectionType =telnet
 
-[Sanitarium BBS]
-        Address        =telnet.wallofhate.com
+[Starbase 21]
+        Address        =bbs.starbase21.net
         Port           =23
         ConnectionType =telnet
-
-[Thunderbolt BBS]
-        Address        =tbolt.synchro.net
-        Port           =23
-        ConnectionType =telnet
-
-[Thunderbolt BBS (SSH)]
-        Address        =tbolt.synchro.net
-        Port           =22036
-        ConnectionType =ssh
 
 [Undercurrents BBS (Enigma) (SSH)]
         Address        =8086

@@ -2,6 +2,15 @@
 <EtherTerm>
   <Phonebook version="1.0">
 
+    <BBS name="56K Majormud BBS"
+      ip="56kmajormud.servegame.com"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="A 80's Apple II BBS"
       ip="a80sappleiibbs.ddns.net"
       port="6502"
@@ -1379,6 +1388,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="DarkAges BBS"
+      ip="darkagesbbs.com"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Darkscience BBS"
       ip="bbs.darkscience.net"
       port="23"
@@ -1955,15 +1973,6 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Fifty-Six (56K) Majormud BBS"
-      ip="56kmajormud.servegame.com"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="File Bank BBS"
       ip="tfb-bbs.org"
       port="23"
@@ -2273,6 +2282,15 @@
     <BBS name="Goodwin BBS"
       ip="bbs.goodwin.synchronetbbs.org"
       port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Grady's Liquor Store"
+      ip="hcow.dynu.net"
+      port="2323"
       protocol="TELNET"
       login=""
       password=""
@@ -2768,6 +2786,15 @@
     <BBS name="LU8FJH BBS"
       ip="190.195.199.159"
       port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="LV-426 BBS"
+      ip="lv426bbs.hopto.org"
+      port="6464"
       protocol="TELNET"
       login=""
       password=""
@@ -5132,6 +5159,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Two Dudes BBS"
+      ip="twodudesbbs.com"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Uncensored!"
       ip="uncensored.citadel.org"
       port="23"
@@ -5621,6 +5657,15 @@
     <BBS name="Zenolab"
       ip="zenolab.synchro.net"
       port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Zombie Zone"
+      ip="hcow.dynu.net"
+      port="61912"
       protocol="TELNET"
       login=""
       password=""

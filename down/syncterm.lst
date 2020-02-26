@@ -13,14 +13,14 @@
         Port           =23
         ConnectionType =telnet
 
-[BBS MouseNet]
-        Address        =bbs-mousenet.dynip.online
-        Port           =23
-        ConnectionType =telnet
-
 [Babes On Fire]
         Address        =babesonfire.nl 
         Port           =23
+        ConnectionType =telnet
+
+[Basement BBS]
+        Address        =basementbbs.ddns.net
+        Port           =9000
         ConnectionType =telnet
 
 [Basement Theory (SSH)]
@@ -53,6 +53,16 @@
         Port           =23
         ConnectionType =telnet
 
+[Citynet]
+        Address        =major.butt.care
+        Port           =23
+        ConnectionType =telnet
+
+[Cosmo's Castle]
+        Address        =ccbbs.zapto.org
+        Port           =3143
+        ConnectionType =telnet
+
 [Death Gate BBS]
         Address        =34.210.77.113
         Port           =23
@@ -68,13 +78,18 @@
         Port           =23
         ConnectionType =telnet
 
-[FlupH BBS]
-        Address        =fluph.zapto.org
-        Port           =23
+[Flower BBS WA]
+        Address        =flower.sytes.net
+        Port           =31337
         ConnectionType =telnet
 
 [Haciend El Bananas]
         Address        =188.166.9.190 
+        Port           =23
+        ConnectionType =telnet
+
+[Haunting The Chapel BBS]
+        Address        =htc.zapto.org
         Port           =23
         ConnectionType =telnet
 
@@ -93,25 +108,20 @@
         Port           =23
         ConnectionType =telnet
 
-[Lean Angle BBS]
-        Address        =winserver.org
-        Port           =23
-        ConnectionType =telnet
-
 [Leisure Time BBS]
         Address        =bbs.riddells.net
         Port           =10023
+        ConnectionType =telnet
+
+[Music Station]
+        Address        =bbs.bsrealm.net
+        Port           =23
         ConnectionType =telnet
 
 [Mutiny BBS (SSH)]
         Address        =mutinybbs.com
         Port           =22
         ConnectionType =ssh
-
-[Network 23]
-        Address        =network23.ch
-        Port           =23
-        ConnectionType =telnet
 
 [Ninety-Six Forty 9640 News BBS]
         Address        =9640news.ddns.net:9640
@@ -128,23 +138,28 @@
         Port           =504
         ConnectionType =telnet
 
+[Northern Borderlands BBS]
+        Address        =73.116.123.179
+        Port           =23
+        ConnectionType =telnet
+
 [Northern Borderlands BBS (SSH)]
         Address        =northernborderlands.ddns.net
         Port           =22
         ConnectionType =ssh
 
-[Nut Asylum (2)]
-        Address        =xtcbox.org
-        Port           =23
-        ConnectionType =telnet
-
-[Omicron Theta BBS]
-        Address        =winserver.org
-        Port           =2300
+[Old Time's Sake BBS]
+        Address        =konchoulias.no-ip.org
+        Port           =2323
         ConnectionType =telnet
 
 [Operation Insanity]
         Address        =opinsane.noip.me
+        Port           =23
+        ConnectionType =telnet
+
+[Pepzi BBS]
+        Address        =pepzi.eu
         Port           =23
         ConnectionType =telnet
 
@@ -153,8 +168,28 @@
         Port           =2323
         ConnectionType =telnet
 
-[Starbase 21]
-        Address        =bbs.starbase21.net
+[Raiders Inc. BBS]
+        Address        =vintagebbsing.com
+        Port           =1337
+        ConnectionType =telnet
+
+[St. Guild BBS]
+        Address        =stguildbbs.ddns.net
+        Port           =23
+        ConnectionType =telnet
+
+[Stepping Stone BBS]
+        Address        =vintagebbsing.com
+        Port           =23
+        ConnectionType =telnet
+
+[Temple of Doom]
+        Address        =tod.eothnet.com
+        Port           =23
+        ConnectionType =telnet
+
+[Tommy's Holiday Camp]
+        Address        =vintage.thcbbs.com
         Port           =23
         ConnectionType =telnet
 
@@ -163,7 +198,7 @@
         Port           =22
         ConnectionType =ssh
 
-[Wastelands BBS]
-        Address        =wastelands-bbs.net
-        Port           =23
+[Virtual Terminal BBS]
+        Address        =bbs.kernelerror.com
+        Port           =10023
         ConnectionType =telnet

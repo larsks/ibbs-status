@@ -8,11 +8,6 @@
         NoStatus       =true
 
 
-[56K Majormud BBS]
-        Address        =56kmajormud.servegame.com
-        Port           =23
-        ConnectionType =telnet
-
 [A 80's Apple II BBS]
         Address        =a80sappleiibbs.ddns.net
         Port           =6502
@@ -903,6 +898,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Distortion (SSH)]
+        Address        =d1st.org
+        Port           =22
+        ConnectionType =ssh
+
 [Doc's Place Online]
         Address        =bbs.docsplace.org
         Port           =26
@@ -1101,6 +1101,11 @@
 [Fercho BBS]
         Address        =ferchobbs.ddns.net
         Port           =2323
+        ConnectionType =telnet
+
+[Fifty-Six (56K) Majormud BBS]
+        Address        =56kmajormud.servegame.com
+        Port           =23
         ConnectionType =telnet
 
 [File Bank BBS]
@@ -1735,6 +1740,11 @@
 
 [Mental Meltdown BBS]
         Address        =mentalmeltdown.us
+        Port           =23
+        ConnectionType =telnet
+
+[Metal Zone]
+        Address        =tmzbbs01.synchro.net
         Port           =23
         ConnectionType =telnet
 

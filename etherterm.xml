@@ -2,15 +2,6 @@
 <EtherTerm>
   <Phonebook version="1.0">
 
-    <BBS name="56K Majormud BBS"
-      ip="56kmajormud.servegame.com"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="A 80's Apple II BBS"
       ip="a80sappleiibbs.ddns.net"
       port="6502"
@@ -1613,6 +1604,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Distortion (SSH)"
+      ip="d1st.org"
+      port="22"
+      protocol="SSH"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Doc's Place Online"
       ip="bbs.docsplace.org"
       port="26"
@@ -1967,6 +1967,15 @@
     <BBS name="Fercho BBS"
       ip="ferchobbs.ddns.net"
       port="2323"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Fifty-Six (56K) Majormud BBS"
+      ip="56kmajormud.servegame.com"
+      port="23"
       protocol="TELNET"
       login=""
       password=""
@@ -3109,6 +3118,15 @@
 
     <BBS name="Mental Meltdown BBS"
       ip="mentalmeltdown.us"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Metal Zone"
+      ip="tmzbbs01.synchro.net"
       port="23"
       protocol="TELNET"
       login=""

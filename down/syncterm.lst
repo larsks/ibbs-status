@@ -8,18 +8,8 @@
         NoStatus       =true
 
 
-[After Hours BBS]
-        Address        =afterhours-bbs.com
-        Port           =23
-        ConnectionType =telnet
-
-[Apernevan.tk BBS]
-        Address        =apernevan.tk
-        Port           =23
-        ConnectionType =telnet
-
-[BBS MouseNet]
-        Address        =bbs-mousenet.dynip.online
+[Anachronism BBS]
+        Address        =173.91.203.27
         Port           =23
         ConnectionType =telnet
 
@@ -33,10 +23,20 @@
         Port           =2222
         ConnectionType =ssh
 
+[Black Flag (1)]
+        Address        =blackflagbbs.com
+        Port           =23
+        ConnectionType =telnet
+
 [Blood Stone (SSH)]
         Address        =wwiv.bsbbs.com
         Port           =22
         ConnectionType =ssh
+
+[CIA Amiga BBS]
+        Address        =ciaamigabbs.dynu.net
+        Port           =6400
+        ConnectionType =telnet
 
 [Capitol Shrill BBS]
         Address        =capitolshrill.com
@@ -53,11 +53,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Days of Old BBS]
-        Address        =daysofoldbbs.wilhartsolutions.com
-        Port           =23
-        ConnectionType =telnet
-
 [Death Gate BBS]
         Address        =34.210.77.113
         Port           =23
@@ -66,11 +61,6 @@
 [Eggy BBS]
         Address        =bbs.eggy.cc:
         Port           =2300
-        ConnectionType =telnet
-
-[Empire of the Dragon BBS]
-        Address        =bbs.eotd.com
-        Port           =23
         ConnectionType =telnet
 
 [Haciend El Bananas]
@@ -88,13 +78,8 @@
         Port           =10023
         ConnectionType =telnet
 
-[MemphisTW]
-        Address        =bbs.memphistw.org
-        Port           =23
-        ConnectionType =telnet
-
-[Metallic Dreams]
-        Address        =bbs.metallic-dreams.com
+[Mental Meltdown BBS]
+        Address        =mentalmeltdown.us
         Port           =23
         ConnectionType =telnet
 
@@ -103,8 +88,8 @@
         Port           =22
         ConnectionType =ssh
 
-[Mystic PI BBS]
-        Address        =bcw142.zapto.org
+[Namstor's BBS]
+        Address        =namstor.com
         Port           =23
         ConnectionType =telnet
 
@@ -133,13 +118,8 @@
         Port           =22
         ConnectionType =ssh
 
-[Old Time's Sake BBS]
-        Address        =konchoulias.no-ip.org
-        Port           =2323
-        ConnectionType =telnet
-
-[Onix BBS]
-        Address        =onixbbs.servebbs.com
+[Oldschoolfl]
+        Address        =oldschoo.synchro.net
         Port           =23
         ConnectionType =telnet
 
@@ -153,18 +133,8 @@
         Port           =2323
         ConnectionType =telnet
 
-[Segfault BBS]
-        Address        =segfault.hopto.org
-        Port           =2324
-        ConnectionType =telnet
-
 [Starbase 21]
         Address        =bbs.starbase21.net
-        Port           =23
-        ConnectionType =telnet
-
-[Temple of Doom]
-        Address        =tod.eothnet.com
         Port           =23
         ConnectionType =telnet
 
@@ -187,8 +157,3 @@
         Address        =whatthed.synchro.net
         Port           =23
         ConnectionType =telnet
-
-[What the Dormouse Said (SSH)]
-        Address        =whatthed.synchro.net
-        Port           =22
-        ConnectionType =ssh

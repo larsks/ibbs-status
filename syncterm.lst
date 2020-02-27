@@ -348,9 +348,24 @@
         Port           =2023
         ConnectionType =telnet
 
-[Black Flag]
-        Address        =blackflag.acid.org
+[Black Flag (1)]
+        Address        =blackflagbbs.com
         Port           =23
+        ConnectionType =telnet
+
+[Black Flag (2)]
+        Address        =blackflag.acid.org
+        Port           =2627
+        ConnectionType =telnet
+
+[Black Flag (3)]
+        Address        =blackflag.acid.org
+        Port           =24
+        ConnectionType =telnet
+
+[Black Flag (4)]
+        Address        =blackflag.acid.org
+        Port           =2628
         ConnectionType =telnet
 
 [Black House BBS]
@@ -696,6 +711,11 @@
 [Crystal Palace]
         Address        =cptalker.com
         Port           =9900
+        ConnectionType =telnet
+
+[Curse of Fenric]
+        Address        =fenric.muppetwhore.net
+        Port           =65523
         ConnectionType =telnet
 
 [Cyberia BBS (1)]
@@ -1733,6 +1753,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Mastodon BBS]
+        Address        =mastodon.uy
+        Port           =23
+        ConnectionType =telnet
+
 [MemphisTW]
         Address        =bbs.memphistw.org
         Port           =23
@@ -2121,6 +2146,11 @@
 [Particles! BBS]
         Address        =particlesbbs.dyndns.org
         Port           =6400
+        ConnectionType =telnet
+
+[Path BBS]
+        Address        =71.81.42.151
+        Port           =23
         ConnectionType =telnet
 
 [Path Unknown BBS]
@@ -2856,6 +2886,11 @@
 [Tower of High Sorcery]
         Address        =tohs.hopto.org
         Port           =23
+        ConnectionType =telnet
+
+[Toxic BBS]
+        Address        =toxic.oldskoolbbs.com
+        Port           =1337
         ConnectionType =telnet
 
 [Toxic Laboratory]

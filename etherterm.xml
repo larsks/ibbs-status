@@ -614,9 +614,36 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Black Flag"
-      ip="blackflag.acid.org"
+    <BBS name="Black Flag (1)"
+      ip="blackflagbbs.com"
       port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Black Flag (2)"
+      ip="blackflag.acid.org"
+      port="2627"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Black Flag (3)"
+      ip="blackflag.acid.org"
+      port="24"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Black Flag (4)"
+      ip="blackflag.acid.org"
+      port="2628"
       protocol="TELNET"
       login=""
       password=""
@@ -1238,6 +1265,15 @@
     <BBS name="Crystal Palace"
       ip="cptalker.com"
       port="9900"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Curse of Fenric"
+      ip="fenric.muppetwhore.net"
+      port="65523"
       protocol="TELNET"
       login=""
       password=""
@@ -3107,6 +3143,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Mastodon BBS"
+      ip="mastodon.uy"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="MemphisTW"
       ip="bbs.memphistw.org"
       port="23"
@@ -3803,6 +3848,15 @@
     <BBS name="Particles! BBS"
       ip="particlesbbs.dyndns.org"
       port="6400"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Path BBS"
+      ip="71.81.42.151"
+      port="23"
       protocol="TELNET"
       login=""
       password=""
@@ -5126,6 +5180,15 @@
     <BBS name="Tower of High Sorcery"
       ip="tohs.hopto.org"
       port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Toxic BBS"
+      ip="toxic.oldskoolbbs.com"
+      port="1337"
       protocol="TELNET"
       login=""
       password=""

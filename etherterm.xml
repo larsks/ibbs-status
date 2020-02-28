@@ -4889,6 +4889,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Star Frontiers"
+      ip="starfron.synchronetbbs.org"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Starbase 21"
       ip="bbs.starbase21.net"
       port="23"

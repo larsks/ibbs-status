@@ -2,8 +2,26 @@
 <EtherTerm>
   <Phonebook version="1.0">
 
+    <BBS name="Abacus BBS"
+      ip="bbs.abon.us"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Anachronism BBS"
       ip="173.91.203.27"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="BBS MouseNet"
+      ip="bbs-mousenet.dynip.online"
       port="23"
       protocol="TELNET"
       login=""
@@ -29,15 +47,6 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Black Flag (1)"
-      ip="blackflagbbs.com"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Blood Stone (SSH)"
       ip="wwiv.bsbbs.com"
       port="22"
@@ -47,9 +56,9 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="CIA Amiga BBS"
-      ip="ciaamigabbs.dynu.net"
-      port="6400"
+    <BBS name="Bucko's Den"
+      ip="wn2.duckdns.org"
+      port="6407"
       protocol="TELNET"
       login=""
       password=""
@@ -83,17 +92,17 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Dark Side of the Moon (2)"
-      ip="reasonablyinteresting.com"
-      port="6502"
+    <BBS name="Death Gate BBS"
+      ip="34.210.77.113"
+      port="23"
       protocol="TELNET"
       login=""
       password=""
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Death Gate BBS"
-      ip="34.210.77.113"
+    <BBS name="DragonsWeb Labs BBS"
+      ip="bbs.dragonsweb.org"
       port="23"
       protocol="TELNET"
       login=""
@@ -119,9 +128,27 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Fusion BBS"
-      ip="fusion.zapto.org"
-      port="9900"
+    <BBS name="Gate BBS"
+      ip="thegatebbs.sytes.net"
+      port="666"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Gate BBS II"
+      ip="thegateb.synchro.net"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Greywolf's Den"
+      ip="greywolf.synchro.net"
+      port="23"
       protocol="TELNET"
       login=""
       password=""
@@ -141,6 +168,15 @@
       ip="tiabbs.synchro.net"
       port="22"
       protocol="SSH"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Lean Angle BBS"
+      ip="winserver.org"
+      port="23"
+      protocol="TELNET"
       login=""
       password=""
       font="vga8x16.bmp"
@@ -236,6 +272,24 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Old Time's Sake BBS"
+      ip="konchoulias.no-ip.org"
+      port="2323"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Omicron Theta BBS"
+      ip="winserver.org"
+      port="2300"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Quazar BBS Door Game Server"
       ip="quazarbbs.dynu.net"
       port="2323"
@@ -290,8 +344,8 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="What the Dormouse Said"
-      ip="whatthed.synchro.net"
+    <BBS name="Uzi Suicide"
+      ip="uzisuicide.servebbs.org"
       port="23"
       protocol="TELNET"
       login=""
@@ -299,10 +353,28 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="What the Dormouse Said (SSH)"
-      ip="whatthed.synchro.net"
-      port="22"
-      protocol="SSH"
+    <BBS name="Void BBS"
+      ip="voidbbs.com"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Wrong Number IV BBS"
+      ip="wn2.duckdns.org"
+      port="3000"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Wrong Number V BBS"
+      ip="wn2.duckdns.org"
+      port="6408"
+      protocol="TELNET"
       login=""
       password=""
       font="vga8x16.bmp"

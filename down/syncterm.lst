@@ -8,8 +8,18 @@
         NoStatus       =true
 
 
+[Abacus BBS]
+        Address        =bbs.abon.us
+        Port           =23
+        ConnectionType =telnet
+
 [Anachronism BBS]
         Address        =173.91.203.27
+        Port           =23
+        ConnectionType =telnet
+
+[BBS MouseNet]
+        Address        =bbs-mousenet.dynip.online
         Port           =23
         ConnectionType =telnet
 
@@ -23,19 +33,14 @@
         Port           =2222
         ConnectionType =ssh
 
-[Black Flag (1)]
-        Address        =blackflagbbs.com
-        Port           =23
-        ConnectionType =telnet
-
 [Blood Stone (SSH)]
         Address        =wwiv.bsbbs.com
         Port           =22
         ConnectionType =ssh
 
-[CIA Amiga BBS]
-        Address        =ciaamigabbs.dynu.net
-        Port           =6400
+[Bucko's Den]
+        Address        =wn2.duckdns.org
+        Port           =6407
         ConnectionType =telnet
 
 [Capitol Shrill BBS]
@@ -53,13 +58,13 @@
         Port           =23
         ConnectionType =telnet
 
-[Dark Side of the Moon (2)]
-        Address        =reasonablyinteresting.com
-        Port           =6502
-        ConnectionType =telnet
-
 [Death Gate BBS]
         Address        =34.210.77.113
+        Port           =23
+        ConnectionType =telnet
+
+[DragonsWeb Labs BBS]
+        Address        =bbs.dragonsweb.org
         Port           =23
         ConnectionType =telnet
 
@@ -73,9 +78,19 @@
         Port           =23
         ConnectionType =telnet
 
-[Fusion BBS]
-        Address        =fusion.zapto.org
-        Port           =9900
+[Gate BBS]
+        Address        =thegatebbs.sytes.net
+        Port           =666
+        ConnectionType =telnet
+
+[Gate BBS II]
+        Address        =thegateb.synchro.net
+        Port           =23
+        ConnectionType =telnet
+
+[Greywolf's Den]
+        Address        =greywolf.synchro.net
+        Port           =23
         ConnectionType =telnet
 
 [Haciend El Bananas]
@@ -87,6 +102,11 @@
         Address        =tiabbs.synchro.net
         Port           =22
         ConnectionType =ssh
+
+[Lean Angle BBS]
+        Address        =winserver.org
+        Port           =23
+        ConnectionType =telnet
 
 [Leisure Time BBS]
         Address        =bbs.riddells.net
@@ -138,6 +158,16 @@
         Port           =22
         ConnectionType =ssh
 
+[Old Time's Sake BBS]
+        Address        =konchoulias.no-ip.org
+        Port           =2323
+        ConnectionType =telnet
+
+[Omicron Theta BBS]
+        Address        =winserver.org
+        Port           =2300
+        ConnectionType =telnet
+
 [Quazar BBS Door Game Server]
         Address        =quazarbbs.dynu.net
         Port           =2323
@@ -168,12 +198,22 @@
         Port           =22
         ConnectionType =ssh
 
-[What the Dormouse Said]
-        Address        =whatthed.synchro.net
+[Uzi Suicide]
+        Address        =uzisuicide.servebbs.org
         Port           =23
         ConnectionType =telnet
 
-[What the Dormouse Said (SSH)]
-        Address        =whatthed.synchro.net
-        Port           =22
-        ConnectionType =ssh
+[Void BBS]
+        Address        =voidbbs.com
+        Port           =23
+        ConnectionType =telnet
+
+[Wrong Number IV BBS]
+        Address        =wn2.duckdns.org
+        Port           =3000
+        ConnectionType =telnet
+
+[Wrong Number V BBS]
+        Address        =wn2.duckdns.org
+        Port           =6408
+        ConnectionType =telnet

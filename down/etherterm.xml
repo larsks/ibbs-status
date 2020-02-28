@@ -83,6 +83,15 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
+    <BBS name="Dark Side of the Moon (2)"
+      ip="reasonablyinteresting.com"
+      port="6502"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
     <BBS name="Death Gate BBS"
       ip="34.210.77.113"
       port="23"
@@ -95,6 +104,24 @@
     <BBS name="Eggy BBS"
       ip="bbs.eggy.cc:"
       port="2300"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Fatcats BBS"
+      ip="fatcatsbbs.com"
+      port="23"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Fusion BBS"
+      ip="fusion.zapto.org"
+      port="9900"
       protocol="TELNET"
       login=""
       password=""
@@ -123,6 +150,24 @@
       ip="bbs.riddells.net"
       port="10023"
       protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Lightning BBS"
+      ip="lightningbbs.com"
+      port="2400"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Lightning BBS (SSH)"
+      ip="lightningbbs.com"
+      port="2422"
+      protocol="SSH"
       login=""
       password=""
       font="vga8x16.bmp"
@@ -182,37 +227,10 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Northern Borderlands BBS"
-      ip="73.116.123.179"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
     <BBS name="Northern Borderlands BBS (SSH)"
       ip="northernborderlands.ddns.net"
       port="22"
       protocol="SSH"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Oldschoolfl"
-      ip="oldschoo.synchro.net"
-      port="23"
-      protocol="TELNET"
-      login=""
-      password=""
-      font="vga8x16.bmp"
-      keyMap="ANSI" />
-
-    <BBS name="Operation Insanity"
-      ip="opinsane.noip.me"
-      port="23"
-      protocol="TELNET"
       login=""
       password=""
       font="vga8x16.bmp"
@@ -227,8 +245,17 @@
       font="vga8x16.bmp"
       keyMap="ANSI" />
 
-    <BBS name="Starbase 21"
-      ip="bbs.starbase21.net"
+    <BBS name="Raiders Inc. BBS"
+      ip="vintagebbsing.com"
+      port="1337"
+      protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="Stepping Stone BBS"
+      ip="vintagebbsing.com"
       port="23"
       protocol="TELNET"
       login=""
@@ -267,6 +294,15 @@
       ip="whatthed.synchro.net"
       port="23"
       protocol="TELNET"
+      login=""
+      password=""
+      font="vga8x16.bmp"
+      keyMap="ANSI" />
+
+    <BBS name="What the Dormouse Said (SSH)"
+      ip="whatthed.synchro.net"
+      port="22"
+      protocol="SSH"
       login=""
       password=""
       font="vga8x16.bmp"

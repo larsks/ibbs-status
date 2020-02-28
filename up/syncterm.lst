@@ -743,11 +743,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Dark Side of the Moon (2)]
-        Address        =reasonablyinteresting.com
-        Port           =6502
-        ConnectionType =telnet
-
 [DarkAges BBS]
         Address        =darkagesbbs.com
         Port           =23
@@ -1058,11 +1053,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Fatcats BBS]
-        Address        =fatcatsbbs.com
-        Port           =23
-        ConnectionType =telnet
-
 [Fercho BBS]
         Address        =ferchobbs.ddns.net
         Port           =2323
@@ -1197,11 +1187,6 @@
         Address        =furmenservices.net
         Port           =23222
         ConnectionType =ssh
-
-[Fusion BBS]
-        Address        =fusion.zapto.org
-        Port           =9900
-        ConnectionType =telnet
 
 [Future World II]
         Address        =fw2.cnetbbs.net
@@ -1568,16 +1553,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Lightning BBS]
-        Address        =lightningbbs.com
-        Port           =2400
-        ConnectionType =telnet
-
-[Lightning BBS (SSH)]
-        Address        =lightningbbs.com
-        Port           =2422
-        ConnectionType =ssh
-
 [Linucus BBS]
         Address        =alterant.leenooks.net
         Port           =60177
@@ -1903,6 +1878,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Northern Borderlands BBS]
+        Address        =73.116.123.179
+        Port           =23
+        ConnectionType =telnet
+
 [Nut Asylum (1)]
         Address        =xtcbox.org
         Port           =2323
@@ -1933,6 +1913,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Oldschoolfl]
+        Address        =oldschoo.synchro.net
+        Port           =23
+        ConnectionType =telnet
+
 [Omicron Theta BBS]
         Address        =winserver.org
         Port           =2300
@@ -1945,6 +1930,11 @@
 
 [Online BBS]
         Address        =online-bbs.selfhost.bz
+        Port           =23
+        ConnectionType =telnet
+
+[Operation Insanity]
+        Address        =opinsane.noip.me
         Port           =23
         ConnectionType =telnet
 
@@ -2191,11 +2181,6 @@
 [RMSBBS]
         Address        =rmsbbs.ddns.net
         Port           =23
-        ConnectionType =telnet
-
-[Raiders Inc. BBS]
-        Address        =vintagebbsing.com
-        Port           =1337
         ConnectionType =telnet
 
 [Raketfart's BBS]
@@ -2598,8 +2583,8 @@
         Port           =50022
         ConnectionType =ssh
 
-[Stepping Stone BBS]
-        Address        =vintagebbsing.com
+[Starbase 21]
+        Address        =bbs.starbase21.net
         Port           =23
         ConnectionType =telnet
 
@@ -2927,11 +2912,6 @@
         Address        =bbs.weather-station.org
         Port           =23
         ConnectionType =telnet
-
-[What the Dormouse Said (SSH)]
-        Address        =whatthed.synchro.net
-        Port           =22
-        ConnectionType =ssh
 
 [Whisky Lover's Amateur Radio BBS]
         Address        =wd1cks.org

@@ -63,6 +63,11 @@
         Port           =23
         ConnectionType =telnet
 
+[After Earth]
+        Address        =lishmud.com
+        Port           =9002
+        ConnectionType =telnet
+
 [After Hours BBS]
         Address        =afterhours-bbs.com
         Port           =23
@@ -213,13 +218,13 @@
         Port           =23
         ConnectionType =telnet
 
-[Atrium BBS]
-        Address        =atriumbbs.org
+[BBS Development]
+        Address        =bbsdev.net
         Port           =23
         ConnectionType =telnet
 
-[BBS Development]
-        Address        =bbsdev.net
+[BBS MouseNet]
+        Address        =bbs-mousenet.dynip.online
         Port           =23
         ConnectionType =telnet
 
@@ -336,11 +341,6 @@
 [Bits & Bytes BBS]
         Address        =bbs.bnbbbs.net
         Port           =2023
-        ConnectionType =telnet
-
-[Black Flag (1)]
-        Address        =blackflagbbs.com
-        Port           =23
         ConnectionType =telnet
 
 [Black Flag (2)]
@@ -538,11 +538,6 @@
         Port           =6400
         ConnectionType =telnet
 
-[Chaotic Bliss BBS]
-        Address        =cbliss.synchro.net
-        Port           =23
-        ConnectionType =telnet
-
 [Chelny]
         Address        =bbs.chelny.online
         Port           =23
@@ -653,9 +648,14 @@
         Port           =23
         ConnectionType =telnet
 
-[Computer Express]
+[Computer Express (1)]
         Address        =bbs.costakis.org
         Port           =3141
+        ConnectionType =telnet
+
+[Computer Express (2)]
+        Address        =cebbs.costakis.org
+        Port           =23
         ConnectionType =telnet
 
 [ConstructiveChaos BBS]
@@ -721,6 +721,11 @@
 [Cybersteampunk BBS]
         Address        =bbs.sysop.se
         Port           =8888
+        ConnectionType =telnet
+
+[Cybertopia]
+        Address        =172.1.227.44
+        Port           =2323
         ConnectionType =telnet
 
 [CypherPunk (Digitilsoft)]
@@ -818,6 +823,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Dawn of Demise (2)]
+        Address        =tdod.org
+        Port           =3000
+        ConnectionType =telnet
+
 [Dawn of Demise (3)]
         Address        =tdod.org
         Port           =5000
@@ -843,11 +853,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Delta City BBS]
-        Address        =deltacity.se
-        Port           =23
-        ConnectionType =telnet
-
 [Demonsnet BBS]
         Address        =demonsnet.com
         Port           =23
@@ -855,6 +860,11 @@
 
 [Den Of Iniquity]
         Address        =denofiniquity.caltrops.com
+        Port           =23
+        ConnectionType =telnet
+
+[Department of Unknown Origin]
+        Address        =164.132.206.124
         Port           =23
         ConnectionType =telnet
 
@@ -878,9 +888,14 @@
         Port           =23
         ConnectionType =telnet
 
-[DigitalDial-Sta#1]
-        Address        =digitaldial.homeunix.com
-        Port           =2300
+[Digital Realms BBS]
+        Address        =connect.digitalrealms.net
+        Port           =2323
+        ConnectionType =telnet
+
+[Dinosaur Act]
+        Address        =megalextoria.com
+        Port           =23
         ConnectionType =telnet
 
 [Disksh0p! BBS]
@@ -915,6 +930,11 @@
 
 [Dogtown BBS]
         Address        =bbs.kiwi.net
+        Port           =23
+        ConnectionType =telnet
+
+[Door Games Unlimited]
+        Address        =65.33.48.6
         Port           =23
         ConnectionType =telnet
 
@@ -970,6 +990,11 @@
 
 [ERICADE Network]
         Address        =the.ericade.net
+        Port           =23
+        ConnectionType =telnet
+
+[Ear Warp Podcast]
+        Address        =108.82.48.118
         Port           =23
         ConnectionType =telnet
 
@@ -1078,6 +1103,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Fatcats BBS]
+        Address        =fatcatsbbs.com
+        Port           =23
+        ConnectionType =telnet
+
 [Fazuul]
         Address        =50.79.10.86
         Port           =23
@@ -1116,16 +1146,6 @@
 [Flashback BBS]
         Address        =flashbackbbs.sytes.net
         Port           =6502
-        ConnectionType =telnet
-
-[FleetHQ BBS]
-        Address        =www.fleethq.org
-        Port           =23
-        ConnectionType =telnet
-
-[Flower BBS WA]
-        Address        =flower.sytes.net
-        Port           =31337
         ConnectionType =telnet
 
 [Fluffy Center]
@@ -1268,14 +1288,14 @@
         Port           =4321
         ConnectionType =telnet
 
-[Goodwin BBS]
-        Address        =bbs.goodwin.synchronetbbs.org
+[Gigashop Networks]
+        Address        =195.189.252.5
         Port           =23
         ConnectionType =telnet
 
-[Grady's Liquor Store]
-        Address        =hcow.dynu.net
-        Port           =2323
+[Goodwin BBS]
+        Address        =bbs.goodwin.synchronetbbs.org
+        Port           =23
         ConnectionType =telnet
 
 [Graveyard BBS]
@@ -1373,6 +1393,11 @@
         Port           =6860
         ConnectionType =telnet
 
+[Henry County SKYWARN BBS]
+        Address        =107.11.210.9
+        Port           =23
+        ConnectionType =telnet
+
 [Herbies-BBS]
         Address        =herbies-bbs.ddns.net
         Port           =2323
@@ -1383,6 +1408,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Hidden Paradise II]
+        Address        =hpbbs.synchro.net
+        Port           =2323
+        ConnectionType =telnet
+
 [High Desert BBS]
         Address        =highdesertbbs.ddns.net
         Port           =6400
@@ -1390,6 +1420,11 @@
 
 [HispaMSX BBS]
         Address        =bbs.hispamsx.org
+        Port           =23
+        ConnectionType =telnet
+
+[Honey At Home]
+        Address        =fido.bajtek.org
         Port           =23
         ConnectionType =telnet
 
@@ -1478,6 +1513,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Intergate BBS]
+        Address        =3.88.248.181
+        Port           =23
+        ConnectionType =telnet
+
 [Internal Affairs]
         Address        =internalaffairsbbs.com
         Port           =23
@@ -1553,6 +1593,11 @@
         Port           =23
         ConnectionType =telnet
 
+[LV-426 BBS]
+        Address        =lv426bbs.hopto.org
+        Port           =6464
+        ConnectionType =telnet
+
 [Lair Of The Wolverine]
         Address        =defshard.synology.me
         Port           =23
@@ -1568,6 +1613,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Last Core BBS]
+        Address        =thelastcore.hopto.org
+        Port           =23
+        ConnectionType =telnet
+
 [Last Rangers BBS]
         Address        =lastrangers.com
         Port           =23
@@ -1578,6 +1628,16 @@
         Port           =2323
         ConnectionType =telnet
 
+[Lean Angle BBS]
+        Address        =winserver.org
+        Port           =23
+        ConnectionType =telnet
+
+[Legacy of a Dark Star]
+        Address        =18.207.20.251
+        Port           =23
+        ConnectionType =telnet
+
 [Legacy/X WHQ]
         Address        =exchangebbs.com
         Port           =23
@@ -1586,6 +1646,11 @@
 [Legends of Yesteryear]
         Address        =136.53.85.91
         Port           =23322
+        ConnectionType =telnet
+
+[Leisure Time BBS]
+        Address        =bbs.riddells.net
+        Port           =10023
         ConnectionType =telnet
 
 [Level 29]
@@ -1605,11 +1670,6 @@
 
 [Lions Den]
         Address        =lionsden.synchronetbbs.org
-        Port           =23
-        ConnectionType =telnet
-
-[Local Yocal BBS]
-        Address        =www.localyocalbbs.com
         Port           =23
         ConnectionType =telnet
 
@@ -1683,6 +1743,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Magicka BBS]
+        Address        =172.110.18.21
+        Port           =23
+        ConnectionType =telnet
+
 [Major Mudd]
         Address        =73.111.12.74
         Port           =23
@@ -1715,11 +1780,6 @@
 
 [Mastodon BBS]
         Address        =mastodon.uy
-        Port           =23
-        ConnectionType =telnet
-
-[McCabe Cousins BBS]
-        Address        =we6jbobbsdotorg.duckdns.org
         Port           =23
         ConnectionType =telnet
 
@@ -1918,6 +1978,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Never Never Land]
+        Address        =134.228.209.217
+        Port           =23
+        ConnectionType =telnet
+
 [New Frontier ][ BBS]
         Address        =frontierbbs.net
         Port           =23
@@ -1978,6 +2043,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Oaken BBS]
+        Address        =oaken.duckdns.org
+        Port           =23
+        ConnectionType =telnet
+
 [Oasis BBS]
         Address        =oasisbbs.hopto.org
         Port           =6400
@@ -2008,6 +2078,11 @@
         Port           =2323
         ConnectionType =telnet
 
+[Omicron Theta BBS]
+        Address        =winserver.org
+        Port           =2300
+        ConnectionType =telnet
+
 [Onix BBS]
         Address        =onixbbs.servebbs.com
         Port           =23
@@ -2015,6 +2090,11 @@
 
 [Online BBS]
         Address        =online-bbs.selfhost.bz
+        Port           =23
+        ConnectionType =telnet
+
+[Operation Insanity]
+        Address        =opinsane.noip.me
         Port           =23
         ConnectionType =telnet
 
@@ -2080,11 +2160,6 @@
 
 [Parity Error BBS]
         Address        =theparityerror.com
-        Port           =23
-        ConnectionType =telnet
-
-[Park Avenue Place]
-        Address        =parkave.synchro.net
         Port           =23
         ConnectionType =telnet
 
@@ -2181,6 +2256,11 @@
 [Pinion BBS]
         Address        =alienprime.alienpinion.com
         Port           =23
+        ConnectionType =telnet
+
+[Pirate's Cove]
+        Address        =picovebbs.com
+        Port           =6860
         ConnectionType =telnet
 
 [Planet Afro BBS]
@@ -2283,14 +2363,14 @@
         Port           =23
         ConnectionType =telnet
 
+[Raiders Inc. BBS]
+        Address        =vintagebbsing.com
+        Port           =1337
+        ConnectionType =telnet
+
 [RapidFire]
         Address        =rapidfire.hopto.org
         Port           =64128
-        ConnectionType =telnet
-
-[Raven BBS]
-        Address        =telnet.ravenbbs.net
-        Port           =23
         ConnectionType =telnet
 
 [Razecus BBS]
@@ -2331,6 +2411,11 @@
 [Realms Online]
         Address        =homecraftingforhope.com
         Port           =23
+        ConnectionType =telnet
+
+[Red Mud BBS]
+        Address        =redmudbbs.site
+        Port           =2560
         ConnectionType =telnet
 
 [Region 15 HQ]
@@ -2633,6 +2718,11 @@
         Port           =2323
         ConnectionType =telnet
 
+[Small Time BBS]
+        Address        =smalltimebbs.ddns.net
+        Port           =23
+        ConnectionType =telnet
+
 [Smooth's BBS]
         Address        =54.67.124.187
         Port           =23
@@ -2640,11 +2730,6 @@
 
 [Solarflow BBS]
         Address        =solarflow.dynu.net
-        Port           =23
-        ConnectionType =telnet
-
-[Sotano MSX BBS]
-        Address        =sotanomsxbbs.org
         Port           =23
         ConnectionType =telnet
 
@@ -2718,8 +2803,8 @@
         Port           =2323
         ConnectionType =telnet
 
-[Starbase 21]
-        Address        =bbs.starbase21.net
+[Stepping Stone BBS]
+        Address        =vintagebbsing.com
         Port           =23
         ConnectionType =telnet
 
@@ -2795,11 +2880,6 @@
 
 [Tempest Fury BBS]
         Address        =tempestfury.d2g.com
-        Port           =23
-        ConnectionType =telnet
-
-[Temple of Doom]
-        Address        =tod.eothnet.com
         Port           =23
         ConnectionType =telnet
 
@@ -2888,11 +2968,6 @@
         Port           =23
         ConnectionType =telnet
 
-[Transfer Interrupted]
-        Address        =bbs.belchi.org
-        Port           =2323
-        ConnectionType =telnet
-
 [Trashcan BBS]
         Address        =bbs.thenet.gen.nz
         Port           =2324
@@ -2908,6 +2983,11 @@
         Port           =23
         ConnectionType =telnet
 
+[Troy's Den BBS]
+        Address        =troybbs.com
+        Port           =23
+        ConnectionType =telnet
+
 [Twinkle BBS]
         Address        =twinklebbs.xyz
         Port           =23
@@ -2915,6 +2995,11 @@
 
 [Twisted Balloon]
         Address        =twisted-balloon.org
+        Port           =23
+        ConnectionType =telnet
+
+[Two Dudes BBS]
+        Address        =twodudesbbs.com
         Port           =23
         ConnectionType =telnet
 
@@ -3048,6 +3133,16 @@
         Port           =2333
         ConnectionType =telnet
 
+[War Ensemble BBS]
+        Address        =warensemble.com
+        Port           =23
+        ConnectionType =telnet
+
+[War Ensemble BBS (SSH)]
+        Address        =warensemble.com
+        Port           =22
+        ConnectionType =ssh
+
 [Wastelands BBS (1)]
         Address        =wastelands-bbs.net
         Port           =23
@@ -3073,9 +3168,9 @@
         Port           =22
         ConnectionType =ssh
 
-[Whisky Lover's Amateur Radio BBS]
-        Address        =wd1cks.org
-        Port           =23
+[Wicked BBS]
+        Address        =wickedbbs.com
+        Port           =2333
         ConnectionType =telnet
 
 [Wicked Garden BBS]
@@ -3148,11 +3243,6 @@
         Port           =6405
         ConnectionType =telnet
 
-[X-Caliber BBS]
-        Address        =bbs.aholix.net
-        Port           =6800
-        ConnectionType =telnet
-
 [XM CORE]
         Address        =bbs.dapla.net
         Port           =23
@@ -3191,11 +3281,6 @@
 [Zenolab]
         Address        =zenolab.synchro.net
         Port           =23
-        ConnectionType =telnet
-
-[Zombie Zone]
-        Address        =hcow.dynu.net
-        Port           =61912
         ConnectionType =telnet
 
 [Zone BBS]
